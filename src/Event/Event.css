@@ -1,0 +1,115 @@
+.Event{
+    width: 900px;
+    height: auto;
+    border: 1px solid sandybrown;
+    margin-left: 100px;
+    margin-top: 20px;  
+}
+.Event-Heading-Button{
+    display: flex;
+    justify-content: space-between;
+}
+.Event-heading{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 1.40625rem;
+    font-weight: 700;
+    line-height: 1.25;
+}
+.Event-Button{
+    margin-top: 20px;
+    margin-right: 20px;
+    color: #0f6fec;
+    background-color: rgba(15, 111, 236, 0.1);
+    border-style: none;
+    font-weight: 400;
+}
+card{
+    height: auto;
+}
+.card-img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+.Event-card-title{
+    color: #0f0f10;
+    font-size: 0.9375rem;
+    font-weight: 700;
+    line-height: 1.25;
+    text-align: left;
+}
+.Event-calendar{
+    text-align: left;
+    color: #6c757d;
+    font-size: 0.875em;
+    display: block;
+}
+.Event-location{
+    text-align: left;
+    color: #6c757d;
+    font-size: 0.875em;
+    display: block;
+    
+}
+.Event-calendar-icon{
+    margin-right: 10px;
+    height: 13px;
+    width: 16px;
+}
+.Event-location-icon{
+    margin-right:10px ;
+    height: 16px;
+    width: 20px;
+}
+.card-Avatar{
+    margin-top: 20px;
+    text-align: left;
+}
+.Event-ul{
+    list-style-type: none;
+    display: flex;
+    margin-left: -13px;
+}
+.card-avatar-img{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    margin-left: -12px;
+    border: 3px solid white;
+}
+.card-avatar-number{
+    width: 35px;
+    height: 35px;
+    background-color: #007bff;
+    color: white;
+    font-size: 0.775em;
+    font-weight: 600;
+    border-radius: 50%;
+    margin-left: -11px;
+    margin-top: 2px;
+    border: 2px solid white;
+    padding: 4px;
+}
+.card-avatar-text{
+    margin-top: 5px;
+    margin-left: 5px;
+    color: #6c757d;
+    font-size: 0.875em;
+}
+.button-like-icon{
+    background-color: #fff;
+    color: #0cbc87;
+    width: 70%;
+    margin-right: 15px;
+}
+.like-icon{
+    margin-right: 05px;
+    width: 13px;
+    height: 13px;
+}
+.button-share-icon{
+    color: #0f6fec;
+    background-color: rgba(15, 111, 236, 0.1);
+    border-style: none;
+}

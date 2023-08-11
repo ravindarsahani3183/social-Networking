@@ -1,0 +1,88 @@
+.Notification{
+ width: 820px;
+ height: 560px;
+ border: 1px solid black;
+ margin-top: 50px;
+ margin-left: 100px;
+}
+.notification-heading-button{
+    display: flex;
+    justify-content: space-between;
+}
+.notification-heading{
+    padding-left: 20px;
+    padding-top: 20px;
+    font-weight: 700;
+    font-size: 21px;
+}
+.notification-button{
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 50px;
+    height: 35px;
+}
+.notification-dot{
+   position: relative;
+   left: 0px;
+   top: -15px;
+   font-size: 25px;
+}
+.notification-img{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+.notification-about{
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    background-color: #e1e4e6;
+    margin-top: 35px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+.notification-dot-active{
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+    background-color: blue;
+    margin-top: 20px;
+    margin-right: 5px;
+}
+.notification-about-heading{
+    font-size: 0.875em;
+    font-weight: bolder;
+}
+.notification-about-heading-div{
+    margin-left: 15px;
+    margin-top: 3px;
+    padding-bottom: 10px;
+}
+.notification-about-heading-friend{
+    color: #676a79;
+    font-weight: 400;
+}
+.notification-about-btn{
+    color: #d6293e;
+    background-color: rgba(214, 41, 62, 0.1);
+    border-style: none;
+}
+.notification-double-button{
+    text-align: left;
+}
+.notification-dot-button{
+    margin-left: 40vh;
+}
+.notification-time-status{
+    padding-right: 20px;
+    position: relative;
+    top: 10px;
+    left: 18px;
+}
+.notification-button1{
+    background-color: #e1e4e6;
+    border-style: none;
+    margin-left: 18px;
+}

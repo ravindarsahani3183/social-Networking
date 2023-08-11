@@ -1,0 +1,152 @@
+.Post{
+    background-color: white;
+    width: 700px;
+    height: 170px;
+    margin-top: 50px;
+    margin-left: 50px;
+    border: 1px solid black;
+    position: relative;
+}
+.PostImg{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.ProfilePostImg{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+.PostPara{
+    position: absolute;
+    top: 25px;
+    left: 80px; 
+    
+}
+.PostParagraph{
+    color: #676a79; 
+    font-size: 18px;
+    font-weight: 400;
+}
+.PostButton{
+   position: absolute;
+   top: 100px;
+   left: 20px;
+}
+.bg-light11 {
+    --bs-bg-opacity: 1;
+     background-color: rgba(var(--bs-secondary-bg-rgb), var(--bs-bg-opacity)) !important;
+     margin: 07px;
+}
+.PostList{
+    text-decoration: none;
+}
+.PostIcon{
+    margin-right: 10px;
+}
+.PostIconPhoto{
+    color: green;
+}
+.PostIconVideo{
+    color: blue;
+}
+.PostIconFeeling{
+    color: yellowgreen;
+}
+.PostIconEvent{
+    color: red;
+}
+.PostLinkContain{
+    color: #676a79;
+    font-size: 15px;
+}
+.btn-danger-sof{
+    color: #d6293e;
+    background-color: rgba(214, 41, 62, 0.1);
+    border-style: none;
+    font-size: 15px;
+    font-weight: 400;
+}
+.btn-success-soft {
+    color: #0cbc87;
+    background-color: rgba(12, 188, 135, 0.1);
+    border-style: none;
+    font-size: 15px;
+    font-weight: 400;
+}
+.MobelBodyImg{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+.border-0{
+    box-shadow: none;
+    margin-top: -05px;
+}
+.form-control:focus {
+    outline: none;    
+}
+.UploadPostHeading{
+    padding-right: 340px;
+}
+.UploadPostSection{
+    width: 465px;
+    height: 200px;
+    border: 2px dashed rgba(0, 0, 0, 0.09);;
+}
+.UploadPostHeading{
+    font-weight: 400;
+    color: #29292e;
+}
+.UploadPost{
+    margin-top: 10px;
+}
+.Drop-drag{
+    padding: 65px;
+}
+.Drop-drag-icon{
+    width: 56px;
+    height: 60px;
+    color: #a1a1a8;
+    cursor: pointer;
+}
+.Drop-drag-para{
+    color: #a1a1a8;
+    padding-top: 10px;
+}
+.video-icon{
+    color: #676a79;
+}
+.form-inline{
+    display: flex;
+}
+.document-icon{
+    color: #a1a1a8;   
+}
+.avatar-group{
+    margin-top: 20px;
+    margin-left: -20px;
+}
+.avatar-ul{
+    list-style-type: none;
+    display: flex;
+}
+.avatar{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-left: -11px;
+}
+.avatar-fifty{
+    padding-left: 5px;
+    padding-top: 5px;
+}
+.event-label{
+    margin-right: 100%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #a1a1a8;
+}
+.event-guests-text{
+    margin-right: 82%;  
+}

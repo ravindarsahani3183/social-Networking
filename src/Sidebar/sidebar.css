@@ -1,0 +1,95 @@
+.Lsidebar{
+    flex: 3.5;
+    .sidebarprofile{
+        margin-top: 20px;
+        margin-left: 150px;
+        width: 260px;
+        height: auto;
+        background-color: white;
+        .LsideBarimg{
+            width: 260px;
+            height: 50px;
+        }
+        .profileimage{
+            position: relative;
+            .profileimg{
+                width: 64px;
+                height: 64px;
+                position:absolute;
+                top: 15px;
+                left: -160px;
+                border: 3px solid white;
+            }
+        }
+        .profileheading{
+            margin-top: 50px;
+            .profileh5{
+                white-space: nowrap;
+            }
+           .profilesmall{
+            white-space: nowrap;
+            font-weight: 100;
+           }
+           .profile_p{
+            font-weight: 400;
+            white-space: pre;
+           }
+        }
+        .friendcount{
+            display: flex;
+            .postcount{
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+            .followers{
+                padding-right: 20px; 
+                padding-left: 20px; 
+            }
+            .Following{
+                padding-left: 20px;
+            }
+            .vr{
+                border-left: 2px dotted black;
+             } 
+        }
+        .profilehr{
+            width: 80%;
+            margin-left: 25px;
+        }
+        .profileproperties,ul{
+            list-style-type: none;
+            
+        }
+        .listItem{
+            text-decoration: none;
+            font-weight: 600;
+            color: black;
+        }
+        .feedHome{
+            padding-right: 150px;
+        }
+        .ConnectionList,.LatestList{
+            padding-right:95px;
+        }
+        .EventList{
+            padding-right:140px;
+        }
+        .GroupList{
+            padding-right:130px;
+        } 
+        .NotificationList{
+            padding-right:90px;  
+        }
+        .SettingList{
+            padding-right:120px;  
+        }
+        .Listicon{
+            font-size: 30px;
+            margin-right: 10px;  
+        }
+        .ProfileView{
+            text-decoration: none;
+            font-weight: 400;
+        } 
+    }
+}

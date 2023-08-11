@@ -1,0 +1,106 @@
+.headercontainer{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+   
+}
+.headerleft{
+    flex: 1;
+    .logo{
+        font-size: 20px;
+        color: black;
+        font-weight: 500;
+        margin-left: 20px;
+    }
+}
+
+.headercenter{
+    flex: 1;
+    
+    .searchbar{
+        width: 90%;
+        height: 43px;
+        background-color: white;
+        border-radius: 10px;
+        border: 1px, solid, white;
+        display: flex;
+        align-items: center;
+        --bs-bg-opacity: 1;
+        background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+        .searchicon{
+            color: black;
+            font-size: 20px;
+            margin-left: 10px;
+            padding: auto;
+            cursor: pointer;
+        }
+        .searchinput{
+            border: none;
+            width: 90%;
+            height: 30px;
+            font-size: 18px;
+            padding-left: 10px;
+            &:focus{
+                outline: none;
+            }
+            
+        }
+        
+    }
+    .bg-light {
+        --bs-bg-opacity: 1;
+         background-color: rgba(var(--bs-secondary-bg-rgb), var(--bs-bg-opacity)) !important;
+    }
+    
+    
+}
+
+.headerright{
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    .headerlinks{
+        margin-left: 200px;
+        .headerlink{
+            font-size: 16px;
+            padding-left: 50px;
+            font-weight: 400;
+            cursor: pointer;
+         }
+    }
+    
+}
+
+.headericons{
+    flex: 2;
+    display: flex;
+    .headerIcon{
+        display: flex;
+        font-size: 20px;
+        padding-left: 20px;
+        align-items: center;
+        .iconbg{
+           height: 50px;
+           width: 50px;
+           display: flex;
+           padding-top: 15px;
+           padding-left: 15px;
+           border-radius: 7px;
+           background-color: gainsboro;
+           position: relative;
+
+        }
+        .headerimg{
+            height: 50px;
+            width: 50px;
+            position: absolute; 
+            top: 0px;
+            left: 0px;
+            border-radius: 10px;
+        }
+    }
+}

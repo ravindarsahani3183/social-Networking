@@ -1,0 +1,81 @@
+.ProfileHeader{
+   width: 700px; 
+   height: auto;
+}
+.ProfileHeaderImg{
+   width: 700px; 
+   height: 200px;
+}
+.ProfileEdit{
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    .ProfileEditImg{
+      width: 110px; 
+      height:110px;
+      border-radius: 50%;
+      position: absolute;
+      top: -50px;
+      left: 30px;
+   }
+   .NameEdit{
+      position: absolute;
+      top: 10px;
+      left: 170px;
+      color: #676a79;
+      line-height: 12px;
+   }
+   .EditButton{
+      position: absolute;
+      top: 10px;
+      left: 530px;
+      color: #d6293e;
+      background-color: rgba(214, 41, 62, 0.1);
+      border-style: none;
+   }
+   .dotButton{
+      position: absolute;
+      top: 10px;
+      left: 650px; 
+   }
+}
+
+
+.ProfileInfo{
+   position: relative;
+   top: 80px;
+   left: -100px;
+   .ProfileInfoRole{
+      padding-left: 70px;
+      font-weight: 400;
+      font-size: 18px;
+      color: #676a79;
+   }
+   .ProfileInfoCity{
+      padding-left: 20px;
+      font-weight: 400;
+      font-size: 18px;
+      color: #676a79;
+   }
+   .ProfileInfoDate{
+      padding-left: 20px;
+      font-weight: 400;
+      font-size: 18px;
+      color: #676a79;
+   }
+   .ProfileLink{
+      display: flex;
+   }
+}
+.ProfileLink, ul{
+   display: flex;
+   margin-top: 50px;
+   padding-left: 20px;
+   list-style-type: none;
+}
+
+.ProfileLink, ul, li{
+   padding-left: 20px;
+   font-size: 23px;
+   color: #e1e4e6;;
+}

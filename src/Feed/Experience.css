@@ -1,0 +1,46 @@
+.Experience{
+    width: 500px;
+    border: 1px solid black;
+}
+.ExperienceButton{
+    display: flex;
+    justify-content: space-between; 
+    .ExperienceHeading{
+        padding-top: 20px;
+        padding-left: 20px;
+        font-weight: 600;
+    } 
+    .ExperienceButton{
+        padding-top: 20px;
+        padding-right: 20px; 
+    } 
+}
+.ExperienceImg{
+    display: flex;
+    margin-top: 20px;
+    .ExperienceH6{
+        padding-right: 125px;
+    }
+    .ExperiencePara{
+        padding-left: 30px;
+        text-align: start;
+        .ExperienceEditButton{
+            height: 30px;
+            line-height: 15px;
+            margin-left: 20px;
+            background-color: #cfe2ff;
+        }
+        .ExperienceEditButton:hover {
+            background-color: #0f6fec;
+        }
+    }
+}
+.quate{
+    height: 48px;
+    width: 48px;
+    margin-left: 20px;
+    
+}
+.TataH6{
+    padding-right: 90px;   
+}

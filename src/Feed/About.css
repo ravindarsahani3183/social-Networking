@@ -1,0 +1,54 @@
+.About{
+    background-color: white;
+    border: 1px solid black;
+    width: 400px;
+    height: 250px;
+    margin-left: 100px;
+}
+.AboutHeading{
+    text-align: start;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+.AboutPara{
+    text-align: start;
+    padding-left: 50px;
+    font-size: 16px;
+    color: #676a79;
+}
+.AboutBorn{
+    font-size: 18px;
+    margin-right: 100px;
+    font-weight: 500;
+    .AboutDate{
+      margin-right: 10px;
+    }
+    .AboutBirthdate{
+        font-weight: 100px;
+        color: #676a79;
+    }
+}
+.Aboutstatus{
+    font-size: 18px;
+    margin-right: 165px;
+    font-weight: 500;
+    .AboutStatus{
+        margin-right: 10px;
+      }  
+    .AboutStatus1{
+        font-weight: 100px;
+        color: #676a79;  
+    } 
+}
+.AboutEmail{
+    font-size: 18px;
+    margin-right: 60px;
+    font-weight: 500;
+    .AboutEmail{
+        margin-right: 10px;
+    }
+    .AboutEmail1{
+        font-weight: 100px;
+        color: #676a79; 
+    }  
+}

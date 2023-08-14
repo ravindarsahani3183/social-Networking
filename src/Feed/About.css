@@ -1,9 +1,8 @@
-.About{
-    background-color: white;
-    border: 1px solid black;
-    width: 400px;
+.About{ 
+    width: 367px;
     height: 250px;
-    margin-left: 100px;
+    margin-left: 50px;
+    margin-bottom: 30px;
 }
 .AboutHeading{
     text-align: start;

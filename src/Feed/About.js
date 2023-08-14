@@ -5,7 +5,7 @@ import { BsHeart } from 'react-icons/bs';
 import { TfiEmail } from 'react-icons/tfi';
 const About = () => {
   return (
-    <div className='About shadow-sm'>
+    <div className='About shadow-lg'>
       <h4 className='AboutHeading'>About</h4>
       <p className='AboutPara'>He moonlights difficult engrossed it,<br></br> 
         sportsmen. Interested has all Devonshire<br></br>

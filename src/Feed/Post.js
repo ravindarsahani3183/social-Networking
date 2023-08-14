@@ -11,7 +11,7 @@ import {CgFileDocument} from 'react-icons/cg';
 import './Post.css';
 function Post() {
   return (
-    <div className='Post shadow-sm'>
+    <div className='Post shadow-lg'>
       <div className='PostImg'>
         <img src="./assets/person/07.jpg" className='ProfilePostImg' alt=""></img>
       </div>

@@ -12,3 +12,11 @@
     z-index: 1;
     content: "";
 }
+.story{
+    width: 600px;
+    height: 162px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    background-color: white;
+}

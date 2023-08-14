@@ -2,7 +2,7 @@
     width: 367px;
     height: 530px;
     margin-left: 50px;
-    border: 1px solid black;
+    margin-bottom: 30px;
 }
 .FriendButton{
     display: flex;

@@ -2,7 +2,7 @@ import React from 'react'
 import './Experience.css';
 const Experience = () => {
   return (
-    <div className='Experience'>
+    <div className='Experience shadow-lg'>
       <div className='ExperienceButton'>
         <h5 className='ExperienceHeading'>Experience</h5>
         <div className='ExperienceButton'><button type='button' className='btn btn-primary '>+</button></div>

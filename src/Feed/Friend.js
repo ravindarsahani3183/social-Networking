@@ -4,7 +4,7 @@ import {BsChatLeftText } from 'react-icons/bs';
 import {BsPersonPlus } from 'react-icons/bs';
 const Friend = () => {
   return (
-    <div className='Friend'>
+    <div className='Friend shadow-lg'>
         <div className='FriendButton'>
           <h4 className='FriendHeading'>Friends<span className='TotalFriend bg-danger bg-opacity-10'>230</span></h4>
           <button type='button' className='btn btn-sm btn-primary ButtonFriend'>See All Photo</button>

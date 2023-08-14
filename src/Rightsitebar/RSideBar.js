@@ -1,9 +1,12 @@
 import React from 'react'
 import './RSideBar.css';
+import Follow from './Follow';
+import News from './News';
 export const RSideBar = () => {
   return (
     <div className='Rsidebar'>
-       <h1>hii</h1>
+       <Follow></Follow>
+       <News></News>
     </div>
   )
 }

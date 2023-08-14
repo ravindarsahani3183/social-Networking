@@ -1,6 +1,7 @@
 .Experience{
-    width: 500px;
-    border: 1px solid black;
+    width: 367px;
+    margin-left: 50px;
+    margin-bottom: 30px;
 }
 .ExperienceButton{
     display: flex;

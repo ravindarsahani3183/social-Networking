@@ -6,7 +6,7 @@ import {FcCalendar } from 'react-icons/fc';
 import { Link } from 'react-router-dom';
 const ProfileHeader = () => {
   return (
-  <div className='ProfileHeader'>
+  <div className='ProfileHeader shadow-lg'>
        <div className='ProfileHeaderImgSection'>
         <img src="./assets/Feed/05.jpg" className='ProfileHeaderImg' alt=""></img>
        </div>
@@ -28,22 +28,25 @@ const ProfileHeader = () => {
         <span className='ProfileInfoCity'><CiLocationOn/><span className='ps-2'>New Hampshire</span></span>
         <span className='ProfileInfoDate'><FcCalendar/><sapn className='ps-2'>Joined on Nov 26, 2019</sapn></span>
        </div>
+       <div className='div-hr'>
+         <hr ></hr>
+       </div>
        <div className='ProfileLink'>
-         <ul>
-          <li>
-           <Link className='listItem feedHome' to="/Post">Post</Link>
+         <ul className='profilelink-ul'>
+          <li className='profilelink-li'>
+           <Link className='listItem feedHome ' to="/Post">Post</Link>
           </li>
-          <li>
-           <Link className='listItem feedHome' to="/ProfileInfo">About</Link>
+          <li className='profilelink-li'>
+           <Link className='listItem feedHome ms-5' to="/ProfileInfo">About</Link>
           </li>
-          <li>
-           <Link className='listItem feedHome' to="/">Connections</Link>
+          <li className='profilelink-li'>
+           <Link className='listItem feedHome ms-5' to="/">Connections</Link>
           </li>
-          <li>
-           <Link className='listItem feedHome' to="/">Media</Link>
+          <li className='profilelink-li'>
+           <Link className='listItem feedHome ms-5' to="/">Media</Link>
           </li>
-          <li>
-           <Link className='listItem feedHome' to="/">Videos</Link>
+          <li className='profilelink-li'>
+           <Link className='listItem feedHome ms-5' to="/">Videos</Link>
           </li>
          </ul>
        </div>

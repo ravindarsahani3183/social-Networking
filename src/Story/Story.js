@@ -3,7 +3,7 @@ import './Story.css';
 
 export const Story = () => {
   return (
-    <div>
+    <div className='story shadow-sm'>
       {/* Story START */}
       <div className='d-flex gap-5 mb-n3'>
         <div className='position-relative'>

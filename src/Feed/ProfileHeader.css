@@ -1,9 +1,12 @@
 .ProfileHeader{
-   width: 700px; 
-   height: auto;
+   width: 774px; 
+   height: 400px;
+   border-radius: 10px;
+   margin-left: 180px;
+   margin-top: 30px;
 }
 .ProfileHeaderImg{
-   width: 700px; 
+   width: 774px; 
    height: 200px;
 }
 .ProfileEdit{
@@ -67,15 +70,24 @@
       display: flex;
    }
 }
-.ProfileLink, ul{
+.ProfileLink, .profilelink-ul{
    display: flex;
-   margin-top: 50px;
+   margin-top: 0px;
    padding-left: 20px;
    list-style-type: none;
 }
 
-.ProfileLink, ul, li{
+.ProfileLink,  .profilelink-ul,.profilelink-li{
    padding-left: 20px;
-   font-size: 23px;
+   font-size: 18px;
    color: #e1e4e6;
+}
+.listItem{
+   color: #14191e;
+   font-weight: 500;
+   text-decoration: none;
+  
+}
+.div-hr{
+   margin-top: 100px;
 }

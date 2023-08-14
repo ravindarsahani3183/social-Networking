@@ -2,6 +2,7 @@
     width: 367px;
     height: 345px;
     margin-left: 50px;
+    margin-bottom: 30px;
 }
 .PhotoButton{
     display: flex;

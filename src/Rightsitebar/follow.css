@@ -6,3 +6,36 @@
     margin-bottom: 30px;
     background-color: white;
 }
+.follow-heading{
+    padding-right: 100px;
+    padding-top: 18px;
+    font-weight: 700;
+}
+.follow-contain{
+    display: flex;
+    justify-content: space-around;
+}
+.follow-img{
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    margin-top: 05px; 
+    margin-left: 10px;
+    
+}
+.follow-name-role{
+    margin-top: 7px;
+}
+.follow-name{
+    padding-right: 70px;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 10px;
+    line-height: 1.5;
+}
+.follow-small-role{
+    font-weight: 200;
+    line-height: 12px;
+    padding-right: 70px;
+}

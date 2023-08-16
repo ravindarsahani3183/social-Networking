@@ -5,7 +5,7 @@ import Post from './Feed/Post';
 import Home from './Home/Home';
 import ProfileInfo from './Feed/ProfileInfo';
 import Connection from './Connection/Connection';
-import Event from './Event/Event';
+import EventHome from './Event/EventHome';
 import Group from './Group/Group';
 import { Notifications } from './Notifications/Notifications';
 //import Story from './Story/Story';
@@ -19,7 +19,7 @@ function App() {
         <Route path="/post" element={<Post />} />
         <Route path="/about" element={<ProfileInfo />} />
         <Route path="/connection" element={<Connection />} />
-        <Route path="/event" element={<Event/>} />
+        <Route path="/eventHome" element={<EventHome/>} />
         <Route path="/group" element={<Group/>} />
         <Route path="/notifications" element={<Notifications/>} />
       </Routes>

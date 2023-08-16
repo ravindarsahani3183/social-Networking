@@ -50,7 +50,7 @@ export const LSideBar = () => {
               <Link className='listItem LatestList' to="/contact"><FcNews className='Listicon'/>Latest News</Link>
             </li>
             <li className='mt-3'>
-              <Link className='listItem EventList' to="/Event"><MdEventNote className='Listicon'/>Events</Link>
+              <Link className='listItem EventList' to="/EventHome"><MdEventNote className='Listicon'/>Events</Link>
             </li>
             <li className='mt-3'>
               <Link className='listItem GroupList' to="/Group"><AiFillWechat className='Listicon'/>Groups</Link>

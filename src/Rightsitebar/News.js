@@ -3,7 +3,7 @@ import './news.css';
 const News = () => {
   return (
     <div className='news shadow-lg'>
-        News
+        recent news
     </div>
   )
 }

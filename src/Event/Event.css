@@ -1,9 +1,11 @@
 .Event{
     width: 900px;
     height: auto;
-    border: 1px solid sandybrown;
-    margin-left: 100px;
     margin-top: 20px;  
+    margin-right: 145px;
+    padding: auto;
+    margin-bottom: 200px;
+    border-radius: 10px;
 }
 .Event-Heading-Button{
     display: flex;

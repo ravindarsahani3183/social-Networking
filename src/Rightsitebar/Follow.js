@@ -3,7 +3,7 @@ import './follow.css';
 import { Link } from 'react-router-dom';
 const Follow = () => {
   return (
-    <div className='follow shadow-sm'>
+    <div className='follow shadow-lg'>
       <h5 className='follow-heading'> Who to follow</h5>
       <div className='follow-contain'>
         <div>

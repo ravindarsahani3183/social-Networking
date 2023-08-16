@@ -7,7 +7,7 @@ import {CgFileDocument} from 'react-icons/cg';
 import './Event.css';
 const Event = () => {
   return (
-    <div className='Event'>
+    <div className='Event shadow-lg'>
       <div className='Event-Heading-Button'>
         <h5 className='Event-heading'>Discover Events</h5>
         <button type="button" class="btn btn-primary Event-Button" data-bs-toggle="modal" data-bs-target="#exampleModal2">
@@ -16,7 +16,7 @@ const Event = () => {
       </div>
       <hr></hr>
       <div className='container mt-5'>
-      <div className='row g-4'>
+      <div className='row g-4 mb-3 ms-2 me-2'>
        <div className='col-xl-4 col-sm-6'>
         <div className='card'>
           <img src="./assets/Event/01.jpg" className='card-img' alt=""></img>
@@ -113,7 +113,7 @@ const Event = () => {
        <img src="./assets/Event/05 (1).jpg" className='card-img' alt=""></img>
          <div className='card-body'>
            <h5 className="Event-card-title">Decibel magazine</h5>
-           <span className='Event-calendar'><BsCalendarCheck className='Event-calendar-icon'/>` `   ``                                      Mon, Sep 25, 2020 at 9:30 AM</span>
+           <span className='Event-calendar'><BsCalendarCheck className='Event-calendar-icon'/>                                      Mon, Sep 25, 2020 at 9:30 AM</span>
            <span className='Event-location'><CiLocationOn className='Event-location-icon'/>San francisco</span>
            <div className='card-Avatar'>
              <ul class="Event-ul">

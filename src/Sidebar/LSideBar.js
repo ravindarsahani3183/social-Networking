@@ -10,8 +10,8 @@ import { IoIosNotificationsOutline } from 'react-icons/io';
 import { LuSettings } from 'react-icons/lu';
 export const LSideBar = () => {
   return (
-    <div className='Lsidebar'>
-      <div className='sidebarprofile shadow-sm'>
+    <div className='Lsidebar '>
+      <div className='sidebarprofile shadow-lg'>
         <div className='coverimg'>
           <span><img src="./assets/profile/01.jpg" className='LsideBarimg' alt=""></img></span>
           <span className='profileimage'><img src="./assets/person/07.jpg" className='profileimg' alt=""></img></span> 

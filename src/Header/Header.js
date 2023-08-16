@@ -7,7 +7,7 @@ import { MdOutlineMessage } from 'react-icons/md';
 
 export const Header = () => {
   return (
-    <div className='headercontainer shadow-sm'>
+    <div className='headercontainer shadow-lg'>
         <div className='headerleft'>
             <span className='logo'>Social-Network</span>
         </div>

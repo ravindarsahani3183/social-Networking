@@ -53,7 +53,7 @@ export const LSideBar = () => {
               <Link className='listItem EventList' to="/EventHome"><MdEventNote className='Listicon'/>Events</Link>
             </li>
             <li className='mt-3'>
-              <Link className='listItem GroupList' to="/Group"><AiFillWechat className='Listicon'/>Groups</Link>
+              <Link className='listItem GroupList' to="/GroupHome"><AiFillWechat className='Listicon'/>Groups</Link>
             </li>
             <li className='mt-3'>
               <Link className='listItem NotificationList' to="/Notifications"><IoIosNotificationsOutline className='Listicon'/>Notifications</Link>

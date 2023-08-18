@@ -3,7 +3,8 @@ import './ProfileInfo.css';
 const ProfileInfo = () => {
   return (
     <div className='ProfileForm'>
-      <input type='text' placeholder='Bio pic'>ggg</input>
+      hii my namy is ravindar
+      i am going to delhi
     </div>
   )
 }

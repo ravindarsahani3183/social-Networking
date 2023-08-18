@@ -6,7 +6,7 @@ import Home from './Home/Home';
 import ProfileInfo from './Feed/ProfileInfo';
 import Connection from './Connection/Connection';
 import EventHome from './Event/EventHome';
-import Group from './Group/Group';
+import GroupHome from './Group/GroupHome';
 import { Notifications } from './Notifications/Notifications';
 //import Story from './Story/Story';
 
@@ -17,10 +17,10 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/feed" element={<Feed />} />
         <Route path="/post" element={<Post />} />
-        <Route path="/about" element={<ProfileInfo />} />
+        <Route path="/profileInfo" element={<ProfileInfo />} />
         <Route path="/connection" element={<Connection />} />
         <Route path="/eventHome" element={<EventHome/>} />
-        <Route path="/group" element={<Group/>} />
+        <Route path="/groupHome" element={<GroupHome/>} />
         <Route path="/notifications" element={<Notifications/>} />
       </Routes>
     </div>

@@ -1,10 +1,9 @@
 .Group{
     width: 855px;
     height: auto;
-    border: 1px solid red;
-    margin-top: 50px;
-    margin-left: 100px;
-    
+    margin-right: 195px;
+    margin-top: 20px;
+    margin-bottom: 100px;
 }
 .Group-header{
     display: flex;

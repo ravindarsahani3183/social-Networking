@@ -6,7 +6,7 @@ import About from './About';
 import Post from './Post';
 import Header from '../Header/Header';
 import './feed.css';
-// import ProfileInfo from './ProfileInfo';
+import Connection from '../Connection/Connection';
 import Experience from './Experience';
 
 export const Feed = () => {
@@ -17,6 +17,7 @@ export const Feed = () => {
         <div>
           <ProfileHeader></ProfileHeader>
           <Post></Post>
+          <Connection></Connection>
         </div>
         <div className='experience-photo-friend'>
           <About/>

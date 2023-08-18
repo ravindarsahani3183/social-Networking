@@ -7,7 +7,7 @@ import {BsFillPersonFill} from 'react-icons/bs';
 import {MdModeEdit} from 'react-icons/md';
 const Group = () => {
   return (
-    <div className='Group'>
+    <div className='Group shadow-lg'>
       <div className='Group-header'>
         <h5 className='group-heading'>Group</h5>
         <div className="dropdown">
@@ -24,7 +24,7 @@ const Group = () => {
       </div>
       <hr></hr>
       <div className='container'>
-        <div className='row'>
+        <div className='row g-4 mb-3 ms-2 me-3'>
 
           <div className='col-sm-6 col-lg-4 mt-4'>
             <div className='card group-card'>

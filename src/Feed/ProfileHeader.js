@@ -32,6 +32,7 @@ const ProfileHeader = () => {
          <hr ></hr>
        </div>
        <div className='ProfileLink'>
+        <nav>
          <ul className='profilelink-ul'>
           <li className='profilelink-li'>
            <Link className='listItem feedHome ' to="/Post">Post</Link>
@@ -40,7 +41,7 @@ const ProfileHeader = () => {
            <Link className='listItem feedHome ms-5' to="/ProfileInfo">About</Link>
           </li>
           <li className='profilelink-li'>
-           <Link className='listItem feedHome ms-5' to="/">Connections</Link>
+           <Link className='listItem feedHome ms-5' to="/Connection">Connections</Link>
           </li>
           <li className='profilelink-li'>
            <Link className='listItem feedHome ms-5' to="/">Media</Link>
@@ -49,6 +50,7 @@ const ProfileHeader = () => {
            <Link className='listItem feedHome ms-5' to="/">Videos</Link>
           </li>
          </ul>
+         </nav>
        </div>
   </div>
   )

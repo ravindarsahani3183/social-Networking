@@ -6,7 +6,8 @@ export const Main = () => {
   return (
     <div className='main'>
      <Story></Story>
-     
+     {/* <Post></Post> */}
+
     </div>
   )
 }

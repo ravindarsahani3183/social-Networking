@@ -3,20 +3,14 @@ import './Story.css';
 
 export const Story = () => {
   return (
-    <div className='story shadow-lg'>
-      {/* Story START */}
-      <div className='d-flex gap-5 mb-n3'>
-        <div className='position-relative'>
-          <div className='card border-2 shadow-none px-small-5 d-flex align-items-center justify-content-center text-center'>
-            <div>
-                <p>story</p>
-            </div>
-          </div>
-        </div>
-        <div className='position-relative border border-primary  w-25'>
-          <p>second story</p>
-        </div>
+    <div className='story '>
+     <div className='story-section-group'>
+      <div className='story-section-profile shadow-lg'>
       </div>
+      <div className='story-group scrollmenu'>
+        
+      </div>
+     </div>
     </div>
   )
 }

@@ -1,22 +1,30 @@
-.border-2{
-  height: 150px;
-  width: 150px;
-  border-style: dashed;
-}
-.stretched-link::after {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 1;
-    content: "";
-}
 .story{
     width: 600px;
     height: 162px;
     margin-left: 20px;
     margin-bottom: 30px;
     margin-top: 20px;
-    background-color: white;
+    
+}
+.story-section-group{
+  display: flex;
+  gap: 10px;
+}
+.story-section-profile{
+  width: 210px;
+  height: 160px;
+  border: dashed 3px ;
+  border-color: #e1e4e6;
+  margin: 7px;
+  background-color: white;
+}
+.story-group{
+  width: 600px;
+  height: 160px;
+  border: solid 1px red;
+  margin: 7px;
+}
+div.scrollmenu {
+  overflow: auto;
+  white-space: nowrap;
 }

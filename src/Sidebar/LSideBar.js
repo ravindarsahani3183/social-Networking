@@ -47,7 +47,7 @@ export const LSideBar = () => {
               <Link className='listItem ConnectionList' to="/Connection"><FcBusinessman className='Listicon'/>Connections</Link>
             </li>
             <li className='mt-3'>
-              <Link className='listItem LatestList' to="/contact"><FcNews className='Listicon'/>Latest News</Link>
+              <Link className='listItem LatestList' to="/LatestNews"><FcNews className='Listicon'/>Latest News</Link>
             </li>
             <li className='mt-3'>
               <Link className='listItem EventList' to="/EventHome"><MdEventNote className='Listicon'/>Events</Link>

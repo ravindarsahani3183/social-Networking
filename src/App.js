@@ -8,6 +8,7 @@ import Connection from './Connection/Connection';
 import EventHome from './Event/EventHome';
 import GroupHome from './Group/GroupHome';
 import { Notifications } from './Notifications/Notifications';
+import LatestNews from './Latest News/LatestNews';
 //import Story from './Story/Story';
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Route path="/profileInfo" element={<ProfileInfo />} />
         <Route path="/connection" element={<Connection />} />
         <Route path="/eventHome" element={<EventHome/>} />
+        <Route path="/latestNews" element={<LatestNews/>} />
         <Route path="/groupHome" element={<GroupHome/>} />
         <Route path="/notifications" element={<Notifications/>} />
       </Routes>

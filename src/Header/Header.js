@@ -4,7 +4,7 @@ import { BsSearch } from 'react-icons/bs';
 import { IoIosNotificationsOutline } from 'react-icons/io';
 import { SlSettings } from 'react-icons/sl';
 import { MdOutlineMessage } from 'react-icons/md';
-
+import { Link } from 'react-router-dom';
 export const Header = () => {
   return (
     <div className='headercontainer shadow-lg'>
@@ -19,9 +19,9 @@ export const Header = () => {
         </div>
         <div className='headerright'>
             <div className='headerlinks'>
-              <span className='headerlink'>Home</span>
-              <span className='headerlink'>Page</span>
-              <span className='headerlink'>Account</span>
+              <Link className='header-link' to="/"><span className='headerlink'>Home</span></Link>
+              <Link className='header-link' to="/"><span className='headerlink'>Page</span></Link>
+              <Link className='header-link' to="/"><span className='headerlink'>Account</span></Link>
             </div>
         </div>
         <div className='headericons'>

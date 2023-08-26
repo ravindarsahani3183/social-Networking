@@ -3,7 +3,7 @@ import './Connection.css';
 import { Link } from 'react-router-dom';
 const Connection = () => {
   return (
-    <div className='Connection'>
+    <div className='Connection shadow-lg'>
         <h5 className='Connection-heading'>Connections</h5>
         <div className='Connection-body'>
           <div className='Connection-img'>

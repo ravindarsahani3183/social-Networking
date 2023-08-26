@@ -20,7 +20,7 @@ export const Header = () => {
         <div className='headerright'>
             <div className='headerlinks'>
               <Link className='header-link' to="/"><span className='headerlink'>Home</span></Link>
-              <Link className='header-link' to="/"><span className='headerlink'>Page</span></Link>
+              <Link className='header-link' to="/Feed"><span className='headerlink'>Page</span></Link>
               <Link className='header-link' to="/"><span className='headerlink'>Account</span></Link>
             </div>
         </div>

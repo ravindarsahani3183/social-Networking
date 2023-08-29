@@ -1,0 +1,12 @@
+.create-page{
+    width: 875px;
+    height: auto;
+    border: 1px solid red;
+    padding-bottom: 20px;
+}
+.create-page-heading{
+    display: flex;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 20px;
+}

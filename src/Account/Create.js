@@ -29,6 +29,16 @@ const Create = () => {
              <input type='text' name="name" placeholder='page name (required)' className='form-control'></input>
              <span>Name that describes what the page is about.</span>
             </div>
+            <div>
+             <label className='create-page-label'>Page name</label>
+             <input type='text' name="name" placeholder='page name (required)' className='form-control'></input>
+             <span>Name that describes what the page is about.</span>
+            </div>
+            <div>
+             <label className='create-page-label'>Page name</label>
+             <input type='text' name="name" placeholder='page name (required)' className='form-control'></input>
+             <span>Name that describes what the page is about.</span>
+            </div>
         </form>
       </div>
     </div>

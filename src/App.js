@@ -10,6 +10,7 @@ import GroupHome from './Group/GroupHome';
 import { Notifications } from './Notifications/Notifications';
 import NewsBlog from './Latest News/NewsBlog';
 import Create from './Account/Create';
+import Accountsetting from './Setting/Accountsetting';
 
 //import Story from './Story/Story';
 
@@ -27,6 +28,7 @@ function App() {
         <Route path="/groupHome" element={<GroupHome/>} />
         <Route path="/notifications" element={<Notifications/>} />
         <Route path="/create" element={<Create/>} />
+        <Route path="/Accountsetting" element={<Accountsetting/>} />
       </Routes>
     </div>
   );

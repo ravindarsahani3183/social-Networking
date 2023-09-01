@@ -1,0 +1,72 @@
+.account-setting{
+    width: 875px;
+    height: auto;
+    border: 1px solid red;
+    padding-bottom: 20px;
+}
+.account-setting-heading{
+    display: flex;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.account-setting-para{
+    display: flex;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 50px;
+    font-weight: 400;
+}
+.account-setting-form-inline{
+    display: flex;
+    text-align: left;
+    margin-top: 20px;
+}
+.setting-account-label{
+    display: flex;
+    text-align: left;
+    padding-left: 25px;
+    color: #6c757d;
+    font-weight: 200;
+}
+.setting-input-form-inline{
+    width: 264px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.setting-account-input{
+    width: 405px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.setting-account-input-area{
+    width: 95%;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.account-setting-checkbox-label{
+    display: flex;
+    text-align: left;
+    color: #495057;
+}
+.form-check-input-setting{
+    background-color: #e1e4e6;
+}
+.account-setting-checkbox{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.account-setting-button{
+    text-align: right;
+    padding-right: 20px;
+}
+.setting-span{
+    display: flex;
+    text-align: left;
+    margin-left: 25px;
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #676a79;
+}

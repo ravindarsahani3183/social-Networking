@@ -11,6 +11,8 @@ import { Notifications } from './Notifications/Notifications';
 import NewsBlog from './Latest News/NewsBlog';
 import Create from './Account/Create';
 import Accountsetting from './Setting/Accountsetting';
+import ChangePassword from './Setting/ChangePassword';
+import NotificationSetting from './Setting/NotificationSetting';
 
 //import Story from './Story/Story';
 
@@ -29,6 +31,8 @@ function App() {
         <Route path="/notifications" element={<Notifications/>} />
         <Route path="/create" element={<Create/>} />
         <Route path="/Accountsetting" element={<Accountsetting/>} />
+        <Route path="/changepassword" element={<ChangePassword/>} />
+        <Route path="/notificationSetting" element={<NotificationSetting/>} />
       </Routes>
     </div>
   );

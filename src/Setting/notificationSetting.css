@@ -1,0 +1,60 @@
+.NotificationSetting{
+    width: 875px;
+    height: auto;
+    border: 1px solid red;
+    padding-bottom: 20px;
+}
+.notification-setting-heading{
+    display: flex;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.notification-setting-para{
+    display: flex;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 28px;
+    font-weight: 400;
+}
+.form-notification-setting{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+.notification-setting-info-heading{
+    display: flex;
+    text-align: left;
+    font-weight: 600;
+}
+.notification-setting-info-small{
+    display: flex;
+    text-align: left;
+    line-height: 3px;
+    color: #6c757d;
+    font-weight: 400;
+}
+.notification-setting-hr{
+    width: 95%;
+    margin-left: 20px;
+}
+.notification-setting-checkbox{
+    margin-left: 0px;
+}
+.form-check-notification-setting {
+    background-color: #e1e4e6;
+}
+.notification-setting-checkbox-label{
+    display: flex;
+    text-align: left;
+    color: #495057;
+}
+.notification-setting-hr1{
+    width: 100%;
+    margin-left: 05px;
+}
+
+.accordion-item {
+    border-style: none;
+  }
+  

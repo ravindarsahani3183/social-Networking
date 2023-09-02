@@ -1,0 +1,60 @@
+.privacy{
+    width: 875px;
+    height: auto;
+    border: 1px solid red;
+    padding-bottom: 20px;
+}
+.privacy-heading{
+    display: flex;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.privacy-para{
+    display: flex;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 50px;
+    font-weight: 400;
+}
+.privacy-info{
+   border: 1px solid black;
+   width: 95%;
+   margin-left: 20px;
+}
+.form-privacy{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+.privacy-info-heading{
+    display: flex;
+    text-align: left;
+    font-weight: 600;
+}
+.privacy-info-small{
+    display: flex;
+    text-align: left;
+    line-height: 3px;
+    color: #6c757d;
+    font-weight: 400;
+}
+.privacy-button{
+    text-align: right;
+    padding-right: 20px;
+}
+.privacy-edit-icon{
+    font-weight: 600;
+    margin-top: -04px;
+
+}
+.btn-privacy{
+    background-color: rgba(15, 111, 236, 0.1);
+    border-style: none;
+    color: #0f6fec;
+}
+.form-privacy1{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0px;
+}

@@ -159,7 +159,9 @@ const NotificationSetting = () => {
             </div>
         </div>
 
-        
+        <div className='notification-setting-button mt-4'>
+          <button type='button' className='btn btn-primary '>save change</button>
+        </div>
       </form>
     </div>
   )

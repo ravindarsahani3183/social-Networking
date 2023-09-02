@@ -13,6 +13,7 @@ import Create from './Account/Create';
 import Accountsetting from './Setting/Accountsetting';
 import ChangePassword from './Setting/ChangePassword';
 import NotificationSetting from './Setting/NotificationSetting';
+import Privacy from './Setting/Privacy';
 
 //import Story from './Story/Story';
 
@@ -33,6 +34,7 @@ function App() {
         <Route path="/Accountsetting" element={<Accountsetting/>} />
         <Route path="/changepassword" element={<ChangePassword/>} />
         <Route path="/notificationSetting" element={<NotificationSetting/>} />
+        <Route path="/privacy" element={<Privacy/>} />
       </Routes>
     </div>
   );

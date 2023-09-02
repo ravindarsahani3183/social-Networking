@@ -65,7 +65,7 @@ const Accountsetting = () => {
            
              <div className='account-setting-button mt-4'>
               <button type='button' className='btn btn-primary '>save change</button>
-            </div>
+             </div>
            
          </form>
     </div>

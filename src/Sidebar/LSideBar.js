@@ -59,7 +59,7 @@ export const LSideBar = () => {
               <Link className='listItem NotificationList' to="/Notifications"><IoIosNotificationsOutline className='Listicon'/>Notifications</Link>
             </li>
             <li className='mt-3'>
-              <Link className='listItem SettingList' to="/Privacy"><LuSettings className='Listicon'/>Settings</Link>
+              <Link className='listItem SettingList' to="/SettingSidebar"><LuSettings className='Listicon'/>Settings</Link>
             </li>
           </ul>
         </div>

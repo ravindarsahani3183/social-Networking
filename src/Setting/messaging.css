@@ -1,0 +1,61 @@
+.messaging-privacy{
+    width: 875px;
+    height: auto;
+    border: 1px solid red;
+    padding-bottom: 20px;
+}
+.messaging-privacy-heading{
+    display: flex;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.messaging-privacy-para{
+    display: flex;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 50px;
+    font-weight: 400;
+}
+.messaging-experience{
+    width: 875px;
+    height: auto;
+    border: 1px solid red;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+.messaging-experience-heading{
+    display: flex;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.messaging-experience-para{
+    display: flex;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 50px;
+    font-weight: 400;
+}
+.messaging-privacy-form{
+    display: flex;
+    justify-content: space-between;
+}
+.messaging-privacy-heading{
+    display: flex;
+    text-align: left;
+    font-weight: 600;
+}
+.messaging-button{
+    text-align: right;
+    padding-right: 20px;
+}
+.btn-messaging{
+    background-color: rgba(15, 111, 236, 0.1);
+    border-style: none;
+    color: #0f6fec;
+}
+.messaging-edit-icon{
+    font-weight: 600;
+    margin-top: -04px;
+}

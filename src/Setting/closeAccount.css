@@ -1,0 +1,49 @@
+.close-account{
+    width: 875px;
+    height: auto;
+    border: 1px solid red;
+    padding-bottom: 20px;
+}
+.close-account-heading{
+    display: flex;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 20px
+}
+.close-account-para{
+    display: flex;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 50px;
+    font-weight: 400;
+}
+.close-account-heading1{
+    display: flex;
+    text-align: left;
+    margin-left: 20px;
+}
+.close-account-ul{
+    margin-left: 20px;
+}
+.close-account-ul-li{
+    text-align: left;
+}
+.close-account-check{
+    background-color: #e1e4e6;
+}
+.close-account-label{
+    display: flex;
+    text-align: left;
+}
+.close-account-button{
+    display: flex;
+    justify-content: flex-start;
+    gap: 12px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.close-account-btn{
+    background-color: rgba(12, 188, 135, 0.1);
+    color: #0cbc87;
+    border-style: none;
+}

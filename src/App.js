@@ -14,7 +14,10 @@ import Accountsetting from './Setting/Accountsetting';
 import ChangePassword from './Setting/ChangePassword';
 import NotificationSetting from './Setting/NotificationSetting';
 import Privacy from './Setting/Privacy';
-
+import Communications from './Setting/Communications';
+import Messaging from './Setting/Messaging';
+import CloseAccount from './Setting/CloseAccount';
+import SettingSidebar from './Setting/SettingSidebar';
 //import Story from './Story/Story';
 
 function App() {
@@ -35,6 +38,10 @@ function App() {
         <Route path="/changepassword" element={<ChangePassword/>} />
         <Route path="/notificationSetting" element={<NotificationSetting/>} />
         <Route path="/privacy" element={<Privacy/>} />
+        <Route path="/Communications" element={<Communications/>} />
+        <Route path="/messaging" element={<Messaging/>} />
+        <Route path="/closeAccount" element={<CloseAccount/>} />
+        <Route path="/SettingSidebar" element={<SettingSidebar/>} />
       </Routes>
     </div>
   );

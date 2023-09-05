@@ -1,8 +1,16 @@
-.setting-sedebar{
+.setting-sidebar{
  width: 274px;
  height: 320px;
  border: 1px solid black;
 }
 .setting-sedebar-ul{
     list-style: none;
+}
+.setting-sidebar-list{
+    text-decoration: none;
+    color: #14191e;
+    font-weight: 600;
+}
+.setting-sidebar-li{
+    padding-top: 20px;
 }

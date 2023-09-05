@@ -1,17 +1,21 @@
 import React from 'react'
 import './settingSidebar.css';
 import { Link } from 'react-router-dom';
+import { FcBusinessman } from 'react-icons/fc';
+import { IoIosNotificationsOutline } from 'react-icons/io';
+import { AiOutlineSafetyCertificate} from 'react-icons/ai';
+
 const SettingSidebar = () => {
   return (
-    <div className='setting-sedebar shadow-lg'>
+    <div className='setting-sidebar shadow-lg'>
       <div>
         <ul className='setting-sedebar-ul'>
-            <li><Link className='' to="/SettingSidebar">Account</Link></li>
-            <li><Link className='' to="/SettingSidebar">Notification</Link></li>
-            <li><Link className='' to="/SettingSidebar">privacy and safety</Link></li>
-            <li><Link className='' to="/SettingSidebar">communications</Link></li>
-            <li><Link className='' to="/SettingSidebar">messaging</Link></li>
-            <li><Link className='' to="/SettingSidebar">close account</Link></li>
+            <li className='setting-sidebar-li'><Link className='setting-sidebar-list fs-6' to="/SettingSidebar"><FcBusinessman/>Account</Link></li>
+            <li className='setting-sidebar-li'><Link className='setting-sidebar-list fs-6' to="/SettingSidebar"><IoIosNotificationsOutline/>Notification</Link></li>
+            <li className='setting-sidebar-li'><Link className='setting-sidebar-list fs-6' to="/SettingSidebar"><AiOutlineSafetyCertificate/>privacy and safety</Link></li>
+            <li className='setting-sidebar-li'><Link className='setting-sidebar-list fs-6' to="/SettingSidebar">communications</Link></li>
+            <li className='setting-sidebar-li'><Link className='setting-sidebar-list fs-6' to="/SettingSidebar">messaging</Link></li>
+            <li className='setting-sidebar-li'><Link className='setting-sidebar-list fs-6' to="/SettingSidebar">close account</Link></li>
         </ul>
       </div>
     </div>

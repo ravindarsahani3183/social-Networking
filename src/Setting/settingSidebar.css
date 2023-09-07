@@ -12,5 +12,28 @@
     font-weight: 600;
 }
 .setting-sidebar-li{
-    padding-top: 20px;
+    padding-top: 03px;
+    display: flex;
+    text-align: left;
+    margin-top: 16px;
 }
+.setting-sidebar-icon{
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+    color: yellow;
+}
+.setting-sidebar-view-profile{
+    padding: auto;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    margin-top: 07px;
+    font-weight: 400;
+}
+
+.setting-sidebar-li:hover {
+    background-color: #cfe2ff;
+    width: 200px;
+  }
+  

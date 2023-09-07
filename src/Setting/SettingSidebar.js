@@ -13,14 +13,16 @@ const SettingSidebar = () => {
     <div className='setting-sidebar shadow-lg'>
       <div>
         <ul className='setting-sedebar-ul'>
-            <li className='setting-sidebar-li'><Link className='setting-sidebar-list fs-6' to="/SettingSidebar"><FcBusinessman/>Account</Link></li>
-            <li className='setting-sidebar-li'><Link className='setting-sidebar-list fs-6' to="/SettingSidebar"><IoIosNotificationsOutline/>Notification</Link></li>
-            <li className='setting-sidebar-li'><Link className='setting-sidebar-list fs-6' to="/SettingSidebar"><AiOutlineSafetyCertificate/>privacy and safety</Link></li>
-            <li className='setting-sidebar-li'><Link className='setting-sidebar-list fs-6' to="/SettingSidebar"><PiHandshake/>communications</Link></li>
-            <li className='setting-sidebar-li'><Link className='setting-sidebar-list fs-6' to="/SettingSidebar"><GoDiscussionClosed/>messaging</Link></li>
-            <li className='setting-sidebar-li'><Link className='setting-sidebar-list fs-6' to="/SettingSidebar"><RiDeleteBin6Line/>close account</Link></li>
+            <li className='setting-sidebar-li'><Link className='setting-sidebar-list fs-6' to="/SettingSidebar"><FcBusinessman className='setting-sidebar-icon'/>Account</Link></li>
+            <li className='setting-sidebar-li'><Link className='setting-sidebar-list fs-6' to="/SettingSidebar"><IoIosNotificationsOutline className='setting-sidebar-icon'/>Notification</Link></li>
+            <li className='setting-sidebar-li'><Link className='setting-sidebar-list fs-6' to="/SettingSidebar"><AiOutlineSafetyCertificate className='setting-sidebar-icon'/>privacy and safety</Link></li>
+            <li className='setting-sidebar-li'><Link className='setting-sidebar-list fs-6' to="/SettingSidebar"><PiHandshake className='setting-sidebar-icon'/>communications</Link></li>
+            <li className='setting-sidebar-li'><Link className='setting-sidebar-list fs-6' to="/SettingSidebar"><GoDiscussionClosed className='setting-sidebar-icon'/>messaging</Link></li>
+            <li className='setting-sidebar-li'><Link className='setting-sidebar-list fs-6' to="/SettingSidebar"><RiDeleteBin6Line className='setting-sidebar-icon'/>close account</Link></li>
         </ul>
       </div>
+      <div className='border-bottom '></div>
+      <span className='setting-sidebar-view-profile'>view profile</span>
     </div>
   )
 }

@@ -21,6 +21,16 @@ const News = () => {
       </div>
 
       <div className='mt-4'>
+        <h6><Link className='news-heading-link' to="/contact"><span className='news-heading-text'>Best Pinterest Boards for <br></br>learning about business</span></Link></h6>
+        <small className='news-text-time'>4h</small>
+      </div>
+      
+      <div className='mt-4'>
+        <h6><Link className='news-heading-link' to="/contact"><span className='news-heading-text'>Best Pinterest Boards for <br></br>learning about business</span></Link></h6>
+        <small className='news-text-time'>4h</small>
+      </div>
+
+      <div className='mt-4'>
         <h6><Link className='news-heading-link' to="/contact"><span className='news-heading-text'>Skills that you can learn from<br></br>business</span></Link></h6>
         <small className='news-text-time'>6h</small>
       </div>

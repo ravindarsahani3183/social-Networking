@@ -1,24 +1,7 @@
 import React from 'react'
-import  { useEffect } from 'react';
 import './Story.css';
 
 export const Story = () => {
-  useEffect(() => {
-    const storyGroupElement = document.querySelector(".story-group");
-
-    if (storyGroupElement) {
-      storyGroupElement.addEventListener("click", function () {
-        alert("hii");
-      });
-
-      // Clean up the event listener when the component unmounts
-      return () => {
-        storyGroupElement.removeEventListener("click", function () {
-          alert("hii");
-        });
-      };
-    }
-  }, []); 
   return (
     <div className='story '>
      <div className='story-section-group'>

@@ -15,6 +15,7 @@ export const Story = () => {
         <div className=''><img src="./assets/Story/06.jpg" className='story-img' alt=""></img></div>
         <div className=''><img src="./assets/Story/07.jpg" className='story-img' alt=""></img></div>
         <div className=''><img src="./assets/Story/05 (1).jpg" className='story-img' alt=""></img></div>
+        <div className=''><img src="./assets/Story/05 (1).jpg" className='story-img' alt=""></img></div>
       </div>
      </div>
     </div>

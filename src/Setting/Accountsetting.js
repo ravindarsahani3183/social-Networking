@@ -1,9 +1,9 @@
 import React from 'react'
 import './AccountSetting.css';
-const Accountsetting = () => {
+const Accountsetting = ({name}) => {
   return (
     <div className='account-setting'>
-      <h4 className='account-setting-heading'>Account Settings</h4>
+      <h4 className='account-setting-heading'>Account Settings for {name}</h4>
       <p className='account-setting-para'>
         He moonlights difficult engrossed it, sportsmen. 
         Interested has all Devonshire difficulty gay assistance joy.

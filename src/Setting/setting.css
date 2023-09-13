@@ -1,0 +1,12 @@
+.setting{
+    display: flex;
+    text-align: left;
+    gap: 20px;
+}
+.setting-settingSidebar{
+    margin-top: 30px;
+    margin-left: 180px;
+}
+.setting-contain{
+    margin-top: 30px; 
+}

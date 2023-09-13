@@ -44,10 +44,10 @@ const ProfileHeader = () => {
            <Link className='listItem feedHome ms-5' to="/Connection">Connections</Link>
           </li>
           <li className='profilelink-li'>
-           <Link className='listItem feedHome ms-5' to="/">Media</Link>
+           <Link className='listItem feedHome ms-5' to="/Media">Media</Link>
           </li>
           <li className='profilelink-li'>
-           <Link className='listItem feedHome ms-5' to="/">Videos</Link>
+           <Link className='listItem feedHome ms-5' to="/Video">Videos</Link>
           </li>
          </ul>
          </nav>

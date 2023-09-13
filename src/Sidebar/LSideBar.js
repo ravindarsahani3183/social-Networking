@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useContext} from 'react'
 import './sidebar.css';
 import { Link } from 'react-router-dom';
 import { VscHome } from 'react-icons/vsc';
@@ -8,7 +8,9 @@ import { MdEventNote } from 'react-icons/md';
 import { AiFillWechat } from 'react-icons/ai';
 import { IoIosNotificationsOutline } from 'react-icons/io';
 import { LuSettings } from 'react-icons/lu';
+import { UserContext } from '../context/UserContext';
 export const LSideBar = () => {
+  //const user = useContext(UserContext);
   return (
     <div className='Lsidebar '>
       <div className='sidebarprofile shadow-lg'>
@@ -17,7 +19,7 @@ export const LSideBar = () => {
           <span className='profileimage'><img src="./assets/person/07.jpg" className='profileimg' alt=""></img></span> 
         </div>
         <div className='profileheading'>
-          <h5 className='profileh5'>Sam Lonson</h5>
+          <h5 className='profileh5'>ravi</h5>
           <small className='profilesmall'>Web Developer at Webestica</small>
           <p class="mt-3 profile_p">I'd love to change the world,<br/> but they won’t give me the<br/>source code.</p>
         </div>
@@ -59,7 +61,7 @@ export const LSideBar = () => {
               <Link className='listItem NotificationList' to="/Notifications"><IoIosNotificationsOutline className='Listicon'/>Notifications</Link>
             </li>
             <li className='mt-3'>
-              <Link className='listItem SettingList' to="/SettingSidebar"><LuSettings className='Listicon'/>Settings</Link>
+              <Link className='listItem SettingList' to="/Setting"><LuSettings className='Listicon'/>Settings</Link>
             </li>
           </ul>
         </div>

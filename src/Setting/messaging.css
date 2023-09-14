@@ -1,7 +1,7 @@
 .messaging-privacy{
     width: 875px;
     height: auto;
-    border: 1px solid red;
+    border-radius: 10px;
     padding-bottom: 20px;
 }
 .messaging-privacy-heading{
@@ -20,7 +20,7 @@
 .messaging-experience{
     width: 875px;
     height: auto;
-    border: 1px solid red;
+    border-radius: 10px;
     padding-bottom: 20px;
     margin-top: 20px;
 }

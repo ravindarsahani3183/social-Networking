@@ -4,7 +4,7 @@ import { LiaEditSolid } from 'react-icons/lia';
 import { BsEye } from 'react-icons/bs';
 const Privacy = () => {
   return (
-    <div className='privacy'>
+    <div className='privacy shadow-lg'>
       <h4 className='privacy-heading'>Privacy and safety</h4>
       <p className='privacy-para'>
         See information about your account, 

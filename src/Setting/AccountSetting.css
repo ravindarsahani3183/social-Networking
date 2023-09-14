@@ -1,8 +1,8 @@
 .account-setting{
     width: 875px;
     height: auto;
-    border: 1px solid red;
     padding-bottom: 20px;
+    border-radius: 10px;
 }
 .account-setting-heading{
     display: flex;

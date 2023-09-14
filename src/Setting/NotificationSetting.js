@@ -2,7 +2,7 @@ import React from 'react'
 import './notificationSetting.css';
 const NotificationSetting = () => {
   return (
-    <div className='NotificationSetting'>
+    <div className='NotificationSetting shadow-lg'>
       <h4 className='notification-setting-heading'>Notification</h4>
       <p className='notification-setting-para'>
         He moonlights difficult engrossed it, sportsmen. 

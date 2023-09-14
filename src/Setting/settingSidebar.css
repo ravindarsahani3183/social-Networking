@@ -1,7 +1,7 @@
 .setting-sidebar{
  width: 274px;
  height: 320px;
- border: 1px solid black;
+ border-radius: 10px;
 }
 .setting-sedebar-ul{
     list-style: none;

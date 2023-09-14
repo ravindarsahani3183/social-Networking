@@ -56,8 +56,8 @@ function App() {
         <Route path="/changepassword" element={<Setting route="changepassword"/>} />
         <Route path="/notificationSetting" element={<Setting route="notificationSetting"/>} />
         <Route path="/privacy" element={<Setting route="privacy"/>} />
-        <Route path="/Communications" element={<Setting route="Communications"/>} />
-        <Route path="/messaging" element={<Setting route="closeAccount"/>} />
+        <Route path="/communications" element={<Setting route="Communications"/>} />
+        <Route path="/messaging" element={<Setting route="messaging"/>} />
         <Route path="/closeAccount" element={<Setting route="closeAccount"/>} />
         <Route path="/SettingSidebar" element={<SettingSidebar/>} />
         <Route path="/setting" element={<Setting route="setting"/>} />

@@ -1,8 +1,10 @@
 import React from 'react'
 import './AccountSetting.css';
+import ChangePassword from './ChangePassword';
 const Accountsetting = ({name}) => {
   return (
-    <div className='account-setting'>
+    <div>
+    <div className='account-setting shadow-lg'>
       <h4 className='account-setting-heading'>Account Settings for {name}</h4>
       <p className='account-setting-para'>
         He moonlights difficult engrossed it, sportsmen. 
@@ -68,6 +70,10 @@ const Accountsetting = ({name}) => {
              </div>
            
          </form>
+         </div>
+         <div className='mt-4'>
+          <ChangePassword />
+         </div>
     </div>
   )
 }

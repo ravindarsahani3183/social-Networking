@@ -8,6 +8,7 @@ import ChangePassword from './ChangePassword';
 import Privacy from './Privacy';
 import NotificationSetting from './NotificationSetting';
 import Communications from './Communications';
+import CloseAccount from './CloseAccount';
 const Setting = ({route}) => {
     
     let componentToRender;
@@ -24,12 +25,20 @@ const Setting = ({route}) => {
       case 'privacy':
         componentToRender = <Privacy/>;
       break;
-      case 'Communications':
+      case 'communications':
         componentToRender = <Communications/>;
+      break;
+
+      case 'messaging':
+        componentToRender = <Messaging/>;
+      break;
+
+      case 'closeAccount':
+        componentToRender = <CloseAccount/>;
       break;
       
       default:
-        componentToRender = <Accountsetting />;
+        componentToRender = <Communications />;
     }
 
   return (

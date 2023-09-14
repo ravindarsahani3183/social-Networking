@@ -2,7 +2,7 @@ import React from 'react'
 import './changePassword.css';
 const ChangePassword = () => {
   return (
-    <div className='change-passowrd'>
+    <div className='change-passowrd shadow-lg'>
       <h4 className='change-password-heading'>Change your password</h4>
       <p className='change-password-para'>
         See resolved goodness felicity shy civility domestic had but.

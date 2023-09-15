@@ -1,0 +1,18 @@
+.ProfileForm{
+    width: 780px;
+    height: 400px;
+    border: solid 1px red;
+    margin-top: 25px;
+    margin-left: 180px;
+}
+.about-profile-heading{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-weight: 500;
+}
+.ProfileForm-Overview{
+    border: 1px solid black;
+    margin-left: 20px;
+    margin-right: 20px;
+}

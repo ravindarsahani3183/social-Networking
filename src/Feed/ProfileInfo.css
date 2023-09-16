@@ -1,13 +1,13 @@
 .ProfileForm{
     width: 780px;
-    height: 400px;
-    border: solid 1px red;
+    height: 430px;
     margin-top: 25px;
     margin-left: 180px;
+    border-radius: 10px;
 }
 .about-profile-heading{
     display: flex;
-    margin-top: 10px;
+    padding-top: 15px;
     margin-left: 20px;
     font-weight: 500;
 }
@@ -38,16 +38,101 @@
 }
 .about-profile-input{
     display: flex;
-    padding-left: 15px;
-    padding-top: 06px;
+    width: 355px;
+    justify-content: space-between;
+}
+.about-profile-info2{
+    display: flex;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 7px;
 }
 .about-profile-dropdown{
     display: flex;
-    text-align: left;
-    padding-left: 180px;
-    padding-right: 20px;
+    justify-content: end;
+    padding-right: 18px;
+    
 }
 .about-info-strong{
     font-weight: bolder;
     color: #495057;
+    padding-left: 05px;
+}
+
+/*
+Interests
+*/
+.interests{
+    width: 780px;
+    height: 230px;
+    margin-top: 25px;
+    margin-left: 180px;
+    border-radius: 10px;
+}
+.interest-heading-button{
+    display: flex;
+    justify-content: space-between;
+}
+.interest-heading{
+    display: flex;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+.interest-button{
+    display: flex;
+    text-align: end;
+    margin-top: 15px;
+    margin-right: 20px;
+    color: #0f6fec;
+    background-color: rgba(15, 111, 236, 0.1);
+    border-style: none;
+}
+.interest-icon-info{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.interest-icon-info1{
+    display: flex;
+    text-align: left;
+}
+.interest-photo{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: flex;
+}
+.interest-icon-heading{
+    display: flex;
+    text-align: left;
+    padding-left: 07px;
+}
+.interest-icon-small{
+    display: flex;
+    text-align: left;
+    padding-left: 07px;
+    line-height: 8px; 
+    color: #6c757d;;
+}
+.interest-icon-small1{
+    display: flex;
+    text-align: left;
+    padding-left: 07px;
+    line-height: 8px; 
+    color: #6c757d;
+    
+}
+.interest-icon-info-2{
+    display: flex;
+    justify-content: left;
+    gap: 90px;
+    cursor: pointer;
+}
+.interest-photo1{
+    width: 48px;
+    height: 48px;
+}
+.interest-icon-heading:hover{
+    color:#0f6fec
 }

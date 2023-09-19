@@ -10,7 +10,7 @@ const Video = () => {
       <div className='video-photo-contain'>
         <div className='video-upload'>
           <div className='video-upload-icon'><TiCamera/></div>
-          <h6 className='video-upload-heading'>Add Video</h6>
+          <h6 className='video-upload-heading'>Add </h6>
         </div>
         <div>
           <img src="./assets/Media/01.jpg" className='rounded video-photo1' alt=""></img>
@@ -38,6 +38,13 @@ const Video = () => {
         </div>
         <div>
           <img src="./assets/Media/05.jpg" className='rounded video-photo1' alt=""></img>
+          <div className='video-icon-like-message'>
+            <span><AiFillHeart className='video-like'/><small className='ms-1'>32k</small></span>
+            <span><MdOutlineMessage/><small className='ms-1'>12k</small></span>
+          </div>
+        </div>
+        <div>
+          <img src="./assets/Media/06.jpg" className='rounded video-photo1' alt=""></img>
           <div className='video-icon-like-message'>
             <span><AiFillHeart className='video-like'/><small className='ms-1'>32k</small></span>
             <span><MdOutlineMessage/><small className='ms-1'>12k</small></span>

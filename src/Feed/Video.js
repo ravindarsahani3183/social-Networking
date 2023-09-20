@@ -43,13 +43,6 @@ const Video = () => {
             <span><MdOutlineMessage/><small className='ms-1'>12k</small></span>
           </div>
         </div>
-        <div>
-          <img src="./assets/Media/06.jpg" className='rounded video-photo1' alt=""></img>
-          <div className='video-icon-like-message'>
-            <span><AiFillHeart className='video-like'/><small className='ms-1'>32k</small></span>
-            <span><MdOutlineMessage/><small className='ms-1'>12k</small></span>
-          </div>
-        </div>
       </div>
     </div>
   )

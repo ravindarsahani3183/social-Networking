@@ -27,17 +27,17 @@ export const Header = () => {
         <div className='headericons'>
             <div className='headerIcon'>
               <div className='iconbg'>
-                 <MdOutlineMessage></MdOutlineMessage>
+                <Link className='header-link' to="/"><span className='headerlink'><MdOutlineMessage></MdOutlineMessage></span></Link>
               </div>
             </div>
             <div className='headerIcon'>
                <div className='iconbg'>
-                 <IoIosNotificationsOutline></IoIosNotificationsOutline>
+                <Link className='header-link' to="/"><span className='headerlink'><IoIosNotificationsOutline></IoIosNotificationsOutline></span></Link>
                </div>
             </div>
             <div className='headerIcon'>
               <div className='iconbg'>
-                <SlSettings></SlSettings>
+                <Link className='header-link' to="/"><span className='headerlink'><SlSettings></SlSettings></span></Link>
               </div>
             </div>
             <div className='headerIcon'>

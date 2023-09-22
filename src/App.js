@@ -21,6 +21,7 @@ import SettingSidebar from './Setting/SettingSidebar';
 import { useContext, useEffect, useState } from 'react';
 import {UserContext} from './context/UserContext';
 import Setting from './Setting/Setting';
+import Login from './Account/Login';
 //import Story from './Story/Story';
 
 function App() {
@@ -52,6 +53,7 @@ function App() {
         <Route path="/groupHome" element={<GroupHome/>} />
         <Route path="/notifications" element={<Notifications/>} />
         <Route path="/create" element={<Create/>} />
+        <Route path="/Login" element={<Login/>} />
         <Route path="/Accountsetting" element={<Setting route="Accountsetting"/>} />
         <Route path="/changepassword" element={<Setting route="changepassword"/>} />
         <Route path="/notificationSetting" element={<Setting route="notificationSetting"/>} />

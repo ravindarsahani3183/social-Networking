@@ -20,8 +20,8 @@ export const Header = () => {
         <div className='headerright'>
             <div className='headerlinks'>
               <Link className='header-link' to="/"><span className='headerlink'>Home</span></Link>
-              <Link className='header-link' to="/Feed"><span className='headerlink'>Page</span></Link>
-              <Link className='header-link' to="/"><span className='headerlink'>Account</span></Link>
+              <Link className='header-link' to="/"><span className='headerlink'>Friends</span></Link>
+              <Link className='header-link' to="/Login"><span className='headerlink'>Account</span></Link>
             </div>
         </div>
         <div className='headericons'>
@@ -32,17 +32,17 @@ export const Header = () => {
             </div>
             <div className='headerIcon'>
                <div className='iconbg'>
-                <Link className='header-link' to="/"><span className='headerlink'><IoIosNotificationsOutline></IoIosNotificationsOutline></span></Link>
+                <Link className='header-link' to="/Notifications"><span className='headerlink'><IoIosNotificationsOutline></IoIosNotificationsOutline></span></Link>
                </div>
             </div>
             <div className='headerIcon'>
               <div className='iconbg'>
-                <Link className='header-link' to="/"><span className='headerlink'><SlSettings></SlSettings></span></Link>
+                <Link className='header-link' to="/Setting"><span className='headerlink'><SlSettings></SlSettings></span></Link>
               </div>
             </div>
             <div className='headerIcon'>
               <div className='iconbg'>
-                <img src="./assets/person/07.jpg" className='headerimg' alt=""></img>
+                <Link className='header-link' to="/Feed"><span className='headerlink'><img src="./assets/person/07.jpg" className='headerimg' alt=""></img></span></Link>
               </div>
             </div>
         </div>

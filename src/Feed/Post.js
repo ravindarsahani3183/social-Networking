@@ -10,6 +10,7 @@ import {BsFillCameraVideoFill} from 'react-icons/bs';
 import {CgFileDocument} from 'react-icons/cg';
 import './Post.css';
 function Post() {
+  
   return (
     <>
     <div className='Post shadow-lg'>

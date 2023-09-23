@@ -17,7 +17,7 @@ const Login = () => {
               <Link className='Login-link ' to="/"><span className='Loginlink '>Forgotten password?</span></Link>
             </div>
             <div className='border-bottom border-login '></div>
-            <button type='submit' className='btn btn-success login-create1 '><Link className='Login-link ' to="/"><span className='Loginlink text-white'>Create new account</span></Link></button>
+            <button type='submit' className='btn btn-success login-create1 '><Link className='Login-link ' to="/SignUp"><span className='Loginlink text-white'>Create new account</span></Link></button>
           </form>
         </div>
     </div>

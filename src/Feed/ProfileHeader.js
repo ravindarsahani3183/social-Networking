@@ -3,8 +3,14 @@ import './ProfileHeader.css';
 import { BsFillBriefcaseFill } from 'react-icons/bs';
 import { CiLocationOn } from 'react-icons/ci';
 import {FcCalendar } from 'react-icons/fc';
-import { Link } from 'react-router-dom';
+import { useLocation, NavLink } from 'react-router-dom';
+import { useEffect,useState } from 'react';
 const ProfileHeader = () => {
+  const location = useLocation();
+  const [url, setUrl] = useState(null);
+  useEffect(() => {
+    setUrl(location.pathname);
+  }, [location])
   return (
   <div className='ProfileHeader shadow-lg'>
        <div className='ProfileHeaderImgSection'>
@@ -35,19 +41,19 @@ const ProfileHeader = () => {
         <nav>
          <ul className='profilelink-ul'>
           <li className='profilelink-li'>
-           <Link className='listItem feedHome ' to="/Post">Post</Link>
+           <NavLink className={(url === "/Feed" ?"underline" : "listItem feedHome")} activeClassName="active" to="/Post">Post</NavLink>
           </li>
           <li className='profilelink-li'>
-           <Link className='listItem feedHome ms-5' to="/ProfileInfo">About</Link>
+           <NavLink className='listItem feedHome ms-5' activeClassName="active" to="/ProfileInfo">About</NavLink>
           </li>
           <li className='profilelink-li'>
-           <Link className='listItem feedHome ms-5' to="/Connection">Connections</Link>
+           <NavLink className='listItem feedHome ms-5' activeClassName="active" to="/Connection">Connections</NavLink>
           </li>
           <li className='profilelink-li'>
-           <Link className='listItem feedHome ms-5' to="/Media">Media</Link>
+           <NavLink className='listItem feedHome ms-5' activeClassName="active" to="/Media">Media</NavLink>
           </li>
           <li className='profilelink-li'>
-           <Link className='listItem feedHome ms-5' to="/Video">Videos</Link>
+           <NavLink className='listItem feedHome ms-5' activeClassName="active" to="/Video">Videos</NavLink>
           </li>
          </ul>
          </nav>

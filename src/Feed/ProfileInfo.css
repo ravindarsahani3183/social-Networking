@@ -136,3 +136,14 @@ Interests
 .interest-icon-heading:hover{
     color:#0f6fec
 }
+
+.active {
+    color: rgb(48, 48, 234);
+    text-decoration: none;
+  }
+
+.underline{
+text-decoration: none;
+color: rgb(48, 48, 234)aqua;
+font-weight: 500;
+  }

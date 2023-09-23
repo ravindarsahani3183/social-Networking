@@ -3,25 +3,26 @@ import './App.css';
 import Feed from './Feed/Feed';
 //import Post from './Feed/Post';
 import Home from './Home/Home';
-import ProfileInfo from './Feed/ProfileInfo';
+//import ProfileInfo from './Feed/ProfileInfo';
 //import Connection from './Connection/Connection';
 import EventHome from './Event/EventHome';
 import GroupHome from './Group/GroupHome';
 import { Notifications } from './Notifications/Notifications';
 import NewsBlog from './Latest News/NewsBlog';
 import Create from './Account/Create';
-import Accountsetting from './Setting/Accountsetting';
-import ChangePassword from './Setting/ChangePassword';
-import NotificationSetting from './Setting/NotificationSetting';
-import Privacy from './Setting/Privacy';
-import Communications from './Setting/Communications';
-import Messaging from './Setting/Messaging';
-import CloseAccount from './Setting/CloseAccount';
+//import Accountsetting from './Setting/Accountsetting';
+//import ChangePassword from './Setting/ChangePassword';
+//import NotificationSetting from './Setting/NotificationSetting';
+//import Privacy from './Setting/Privacy';
+//import Communications from './Setting/Communications';
+//import Messaging from './Setting/Messaging';
+//import CloseAccount from './Setting/CloseAccount';
 import SettingSidebar from './Setting/SettingSidebar';
 import { useContext, useEffect, useState } from 'react';
 import {UserContext} from './context/UserContext';
 import Setting from './Setting/Setting';
 import Login from './Account/Login';
+import SignUp from './Account/SignUp';
 //import Story from './Story/Story';
 
 function App() {
@@ -54,6 +55,7 @@ function App() {
         <Route path="/notifications" element={<Notifications/>} />
         <Route path="/create" element={<Create/>} />
         <Route path="/Login" element={<Login/>} />
+        <Route path="/signup" element={<SignUp/>} />
         <Route path="/Accountsetting" element={<Setting route="Accountsetting"/>} />
         <Route path="/changepassword" element={<Setting route="changepassword"/>} />
         <Route path="/notificationSetting" element={<Setting route="notificationSetting"/>} />

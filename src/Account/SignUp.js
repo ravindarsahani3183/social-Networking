@@ -6,8 +6,8 @@ const SignUp = () => {
     <div>
       <div className='signup'>
         <div>
-          <h1 className='Login-heading'>Social Networking</h1>
-          <p className='Login-para'>social networking helps you connect and share<br/> with the people in your life.</p>
+          <h1 className='sign-up-heading'>Social Networking</h1>
+          <p className='sign-up-para'>social networking helps you connect and share<br/> with the people in your life.</p>
         </div>
         <div className='shadow-lg signup-form'>
           <form>
@@ -16,14 +16,38 @@ const SignUp = () => {
                 <small className='signup-para1'>It's quick and easy.</small>
             </div>
             <div className='border-bottom mt-2 mb-2'></div>
-            <input type='text' placeholder='First name' className='signup-input border'></input>
-            <input type='text' placeholder='surname' className='signup-input border'></input>
-            <button type='submit' className='btn btn-primary login-input '>Log In</button>
-            <div className='mt-2'>
-              <Link className='Login-link ' to="/"><span className='Loginlink '>Forgotten password?</span></Link>
+            <div className='sign-up-form'>
+              <input type='text' placeholder='First name' className='signup-input border'></input>
+              <input type='text' placeholder='Surname' className='signup-input border'></input>
             </div>
-            <div className='border-bottom border-login '></div>
-            <button type='submit' className='btn btn-success login-create1 '><Link className='Login-link ' to="/SignUp"><span className='Loginlink text-white'>Create new account</span></Link></button>
+            <div>
+              <input type='email' placeholder='Email Address' className='sign-up-input border'></input>
+              <input type='password' placeholder='Password' className='sign-up-input border'></input>
+            </div>
+            <div className='sign-up-form'>
+              <input type='number' placeholder='Mobile number' className='signup-input border'></input>
+              <input type='date' placeholder='Date of birth' className='signup-input border'></input>
+            </div>
+            <div className='signup-radio-button'>
+              <div className='radio-container border py-1'>
+                <input type="radio" id="option1" name="radio-group" className="radio-input"/>
+                <label for="option1" class="radio-label">Male</label>
+              </div>
+              
+              <div className='radio-container border py-1'>
+                <input type="radio" id="option1" name="radio-group" className="radio-input"/>
+                <label for="option1" class="radio-label">Female</label>
+              </div>
+
+              <div className='radio-container border py-1'>
+                <input type="radio" id="option1" name="radio-group" className="radio-input"/>
+                <label for="option1" class="radio-label">Custom</label>
+              </div>
+            </div>
+            <button type='submit' className='btn btn-primary sign-up-input mt-4'>Log In</button>
+            <p className='sign-up-login1'>Already have an account?<Link className='sign-up-link-login' to="/Login">
+              <span>Login in</span></Link>
+            </p>
           </form>
         </div>
       </div>  

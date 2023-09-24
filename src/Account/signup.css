@@ -6,9 +6,24 @@
 }
 .signup-form{
     width: 450px;
-    height: 350px;
+    height: 450px;
     border: 1px solid 1px;
     border-radius: 7px;
+}
+.sign-up-heading{
+    display: flex;
+    text-align: left;
+    color: #1877f2;
+    font-size: 35px;
+    margin-top: 50px;
+}
+.sign-up-para{
+    display: flex;
+    text-align: left;
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
 }
 .signup-heading1{
     display: flex;
@@ -37,3 +52,52 @@
     padding-left: 10px;
     border-radius: 7px;
 }
+.sign-up-form{
+    display: flex;
+    justify-content: left;
+    gap: 15px;
+    margin-left: 18px;
+    margin-top: 10px;
+}
+.sign-up-input{
+    width: 415px;
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 7px;
+    margin-top: 10px;
+}
+.radio-container {
+    display: inline-block;
+    margin-right: 10px;
+    border-radius: 5px;
+  }
+
+  .radio-label {
+    font-size: 16px;
+    margin-right: 10px;
+
+  }
+
+  .radio-input {
+    margin-right: 30px;
+    margin-left: 10px;
+  }
+
+  .signup-radio-button{
+    display: flex;
+    text-align: left;
+    gap: 30px;
+    margin-top: 15px;
+    margin-left: 20px;
+    border-radius: 5px;
+  }
+  .sign-up-login1{
+    display: flex;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+  .sign-up-link-login{
+    text-decoration: none;
+    margin-left: 7px;
+  }

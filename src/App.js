@@ -23,6 +23,7 @@ import {UserContext} from './context/UserContext';
 import Setting from './Setting/Setting';
 import Login from './Account/Login';
 import SignUp from './Account/SignUp';
+import ForgetPassword from './Account/ForgetPassword';
 //import Story from './Story/Story';
 
 function App() {
@@ -56,6 +57,7 @@ function App() {
         <Route path="/create" element={<Create/>} />
         <Route path="/Login" element={<Login/>} />
         <Route path="/signup" element={<SignUp/>} />
+        <Route path="/forgetPassword" element={<ForgetPassword/>} />
         <Route path="/Accountsetting" element={<Setting route="Accountsetting"/>} />
         <Route path="/changepassword" element={<Setting route="changepassword"/>} />
         <Route path="/notificationSetting" element={<Setting route="notificationSetting"/>} />

@@ -14,7 +14,7 @@ const Login = () => {
             <input type='password' placeholder='Password' className='login-input border'></input>
             <button type='submit' className='btn btn-primary login-input '>Log In</button>
             <div className='mt-2'>
-              <Link className='Login-link ' to="/"><span className='Loginlink '>Forgotten password?</span></Link>
+              <Link className='Login-link ' to="/ForgetPassword"><span className='Loginlink '>Forgotten password?</span></Link>
             </div>
             <div className='border-bottom border-login '></div>
             <button type='submit' className='btn btn-success login-create1 '><Link className='Login-link ' to="/SignUp"><span className='Loginlink text-white'>Create new account</span></Link></button>

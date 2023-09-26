@@ -1,0 +1,79 @@
+.add-friend{
+    width: 760px;
+    height: 870px;
+    margin-left: 375px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    border-radius: 07px;
+}
+.add-friend-contain{
+    display: flex;
+    justify-content: space-between;
+}
+.add-friend-para{
+    display: flex;
+    text-align: left;
+    padding-top: 15px;
+    padding-left: 20px;
+    font-weight: 600;
+}
+.add-friend-button{
+    display: flex;
+    text-align: right;
+    margin-top: 15px;
+    margin-right: 20px;
+    width: 56px;
+    height: 32px;
+    padding: auto;
+    color: #0f6fec;
+    background-color: rgba(15, 111, 236, 0.1);
+    border-style: none;
+}
+.add-friend-group{
+    display: flex;
+    gap: 15px;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+.add-friend-frame{
+    width: 148px;
+    height: 200px;
+    border-radius: 5px;
+}
+.add-friend-link{
+    text-decoration: none;
+    color: #000;
+}
+.add-frined-img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+.add-frined-img-heading{
+    margin-top: 7px;
+    text-decoration: none;
+    line-height: 15px;
+}
+.add-frined-connection{
+    font-size: 0.875rem;
+    line-height: 18px;
+    color: #6c757d;
+    font-weight: 400;
+}
+.add-frined-button-request{
+    width: 120px;
+    height: 30px;
+    line-height: 12px;
+    color: #0f6fec;
+    background-color: rgba(15, 111, 236, 0.1);
+    border-style: none;
+}
+.add-frined-button-request1{
+    margin-top: -5px;
+}
+.add-friend-lg-button{
+    width: 640px;
+    height: 37px;
+    margin-top: 45px;
+}

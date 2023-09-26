@@ -1,6 +1,6 @@
 .Connection{
     width: 776px;
-    height: 500px;
+    height: 560px;
     border-radius: 10px;
     margin-top: 30px;
     margin-left: 180px;
@@ -14,41 +14,47 @@
     line-height: 1.25;
     color: #0f0f10;
 }
-.Connection-image{
+.connection-box{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.connection-element{
+    display: flex;
+}
+.connection-img{
     height: 48px;
     width: 48px;
     border-radius: 50%;
+    margin-top: 20px; 
     margin-left: 20px;
-    margin-top: 50px;
 }
-.Connection-body{
-    display: flex;
-}
-.Collection-heading-para{
-    text-align: left;
+.connection-info{
+    margin-top: 20px;
     margin-left: 10px;
-    margin-top: 40px;
-    display: flex;
-    gap: 08px;
+    padding-top: 2px;
 }
-.Connection-list{
+.connection-name-role{
+    display: flex;
+}
+.connection-heading-name{
+    line-height: 12px;
+}
+.connection-list{
     text-decoration: none;
-    color: #0f0f10;
-    font-size: 0.9375rem;
+    color: #14191e;
     font-weight: 700;
+    margin-right: 10px;
 }
-.Connection-para{
-    font-weight: 400;
-    font-size: 0.875em;
-    color: #6c757d;
+.connection-role{
+    color: #676a79;
+    line-height: 12px; 
 }
-.Connection-avatar{
-    margin-top: -10px;
-    margin-left: -10px;
-}
-.avatar-ul{
-    list-style-type: none;
+.connection-mutual-img{
     display: flex;
+}
+.connection-friend-img{
+    margin-left: 10px;
 }
 .Avatar-Connection{
     width: 24px;
@@ -70,30 +76,34 @@
     border: 2px solid white;
     padding: 4px;
 }
-.Connection-small{
-    color: #6c757d;
-    font-weight: 400;
+.connection-mutual-friend-img{
+    margin-left: 5px;
+    margin-top: 3px;
 }
-.Connection-button{
-    margin-left:10px;
-    margin-top: 50px;
+.connection-mutual-friend{
+    color: #29292e;    
+}
+.connection-remove-message-button{
+    margin-right: 20px;
+    margin-top: 10px;
+}
 
-}
 .Connection-remove{
-    margin-left: 15px;
     color: #d6293e;
     background-color: rgba(214, 41, 62, 0.1);
     border-style: none;
+    margin-right: 10px;
 }
 .Connection-message{
-    margin-left: 15px;
     color: #0f6fec;
     background-color: rgba(15, 111, 236, 0.1);
     border-style: none;
 }
+
 .Connection-button-large {
     color: #0f6fec;
     background-color: rgba(15, 111, 236, 0.1);
     border-style: none; 
     width: 95%;
+    margin-top: 30px;
 }

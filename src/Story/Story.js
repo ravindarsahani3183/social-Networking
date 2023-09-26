@@ -1,11 +1,17 @@
 import React from 'react'
 import './Story.css';
-
+import { IoAddSharp } from 'react-icons/io5';
 export const Story = () => {
   return (
     <div className='story '>
      <div className='story-section-group'>
       <div className='story-section-profile shadow-lg'>
+        <div className='story-post'>
+          <IoAddSharp  className='story-post-icon'/>
+        </div>
+        <p className='story-post-heading'>Post a <br></br>
+          Story
+        </p>
       </div>
       <div className='story-group scrollmenu'>
         <div className=''><img src="./assets/Story/02 (1).jpg" className='story-img seen' alt=""></img></div>

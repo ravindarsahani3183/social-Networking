@@ -1,88 +1,163 @@
 .Notification{
  width: 820px;
- height: 560px;
- border: 1px solid black;
- margin-top: 50px;
- margin-left: 100px;
+ height: 680px;
+ border-radius: 10px;
+ margin-top: 30px;
+ margin-left: 350px;
 }
 .notification-heading-button{
     display: flex;
     justify-content: space-between;
 }
 .notification-heading{
-    padding-left: 20px;
-    padding-top: 20px;
-    font-weight: 700;
-    font-size: 21px;
+    padding-top: 15px;
+    padding-left: 15px;
+    font-weight: 600;
 }
 .notification-button{
-    margin-top: 20px;
-    margin-right: 20px;
-    width: 50px;
-    height: 35px;
+    border-style: none;
+    margin-right: 15px;
+    margin-top: 15px;
+    padding-top: -10px;
+    background-color: #fff;
+    width: 35px;
+    height: 30px;
 }
-.notification-dot{
-   position: relative;
-   left: 0px;
-   top: -15px;
-   font-size: 25px;
+.notification-button:hover{
+    border-style: none;
+    margin-right: 15px;
+    margin-top: 15px;
+    background-color: rgba(0, 0, 0, 0.09);
+    width: 35px;
+    height: 30px;
+    padding-top: -10px;
+    border-radius: 4px;
+}
+.notification-button-dot{
+   margin-top: -7px;  
+}
+.notification-box{
+    width: 800px;
+    height: 80px;
+    background-color: #eff2f6;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.notification-element{
+    display: flex;
 }
 .notification-img{
-    width: 48px;
-    height: 48px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
-}
-.notification-about{
-    display: flex;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 10px;
-    background-color: #e1e4e6;
-    margin-top: 35px;
+    margin-top: 10px;
     margin-left: 10px;
+}
+.notification-name-request{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.notification-name{
     margin-right: 10px;
-    border-radius: 10px;
 }
-.notification-dot-active{
-    height: 7px;
-    width: 7px;
-    border-radius: 50%;
-    background-color: blue;
-    margin-top: 20px;
-    margin-right: 5px;
-}
-.notification-about-heading{
-    font-size: 0.875em;
-    font-weight: bolder;
-}
-.notification-about-heading-div{
-    margin-left: 15px;
-    margin-top: 3px;
-    padding-bottom: 10px;
-}
-.notification-about-heading-friend{
+.notification-friend-request{
     color: #676a79;
     font-weight: 400;
 }
-.notification-about-btn{
-    color: #d6293e;
-    background-color: rgba(214, 41, 62, 0.1);
-    border-style: none;
-}
-.notification-double-button{
-    text-align: left;
-}
-.notification-dot-button{
-    margin-left: 40vh;
-}
-.notification-time-status{
-    padding-right: 20px;
-    position: relative;
-    top: 10px;
-    left: 18px;
-}
 .notification-button1{
-    background-color: #e1e4e6;
+    display: flex;
+    gap: 10px;
+    margin-left: 10px;
+}
+.notification-accept-button{
     border-style: none;
-    margin-left: 18px;
+    border-radius: 5px;
+    width: 71px;
+    height: 29px;
+    font-size: 14px;
+    line-height: 10px;
+    
+}
+.notification-delete-button{
+    border-style: none;
+    background-color: rgba(214, 41, 62, 0.1);
+    border-color: #d6293e;
+    border-radius: 5px;
+    width: 71px;
+    height: 29px;
+    font-size: 14px;
+    line-height: 10px;
+}
+.notification-right-info{
+    margin-right: 30px;
+    margin-top: 10px;
+}
+.notification-right-text{
+    margin-right: 20px;
+    color: #676a79;
+}
+.notification-birthday-button{
+  width: 173px;
+  height: 30px;
+  font-size: 14px;
+  color: #676a79;
+  line-height: 10px;
+}
+.notification-birthday-button:hover{
+    background-color: #e6ebf0;
+}
+.notification-circle-profile{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: aquamarine;
+}
+.notification-profile-name{
+    margin-top: 14px;
+    color: #fff;
+    font-weight: 600;
+}
+.notification-friend-news{
+ display: flex;
+ text-align: left;
+ 
+}
+.notification-joined{
+    line-height: 10px;
+    color: #676a79;
+}
+
+.notification-box1{
+    width: 800px;
+    height: 80px;
+    background-color: white;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.notification-payout{
+    font-size: 14px;
+    color: #676a79;
+    line-height: 10px;
+}
+.notification-congrate{
+    display: flex;
+    text-align: left;
+    color: #676a79;
+}
+
+.notification-button-large{
+    color: #0f6fec;
+    background-color: rgba(15, 111, 236, 0.1);
+    border-style: none; 
+    width: 96%;
+    margin-top: 30px;
 }

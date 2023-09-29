@@ -21,7 +21,7 @@ export const Header = () => {
             <div className='headerlinks'>
               <Link className='header-link' to="/"><span className='headerlink'>Home</span></Link>
               <Link className='header-link' to="/AddFriend"><span className='headerlink'>Friends</span></Link>
-              <Link className='header-link' to="/Login"><span className='headerlink'>Account</span></Link>
+              <Link className='header-link' to="/NewsBlog"><span className='headerlink'>News</span></Link>
             </div>
         </div>
         <div className='headericons'>

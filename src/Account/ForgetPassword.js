@@ -1,6 +1,7 @@
 import React from 'react'
 import './forgetpassword.css';
 import { Link } from 'react-router-dom';
+import { FaEyeSlash } from 'react-icons/fa';
 const ForgetPassword = () => {
   return (
     <div>
@@ -10,7 +11,7 @@ const ForgetPassword = () => {
             <form>
               <div className='forget-ps'>
                 <input type='text' placeholder='Password' className='border rounded-start forget-password-input'></input>
-                <span className='forget-password-icon border rounded-end'>@</span>
+                <span className='forget-password-icon border rounded-end'><FaEyeSlash className='show-password-icon1'/></span>
               </div>
               <div className='border-bottom border-5  forget-password-border'></div>
               <div className='forget-password-text'>

@@ -1,5 +1,6 @@
 import React from 'react'
 import './changePassword.css';
+import { FaEyeSlash } from 'react-icons/fa';
 const ChangePassword = () => {
   return (
     <div className='change-passowrd shadow-lg'>
@@ -17,7 +18,7 @@ const ChangePassword = () => {
         <label className='change-password-label fw-normal mb-2'>New password</label>
         <div className="input-group mb-3 change-password-social-link">
           <input type="text" className="form-control " placeholder="new password" aria-label="Username" aria-describedby="basic-addon1"/>
-          <span className="input-group-text" id="basic-addon1">*</span>
+          <span className="input-group-text" id="basic-addon1"><FaEyeSlash className='show-password-icon'/></span>
         </div>
       </div>
 

@@ -86,6 +86,7 @@ const Event = () => {
          </div>
         </div>
        </div>
+
        <div className='col-xl-4 col-sm-6'>
        <div className='card'>
        <img src="./assets/Event/04 (1).jpg" className='card-img' alt=""></img>
@@ -108,6 +109,30 @@ const Event = () => {
          </div>
         </div>
        </div>
+
+       <div className='col-xl-4 col-sm-6'>
+       <div className='card'>
+       <img src="./assets/Event/04 (1).jpg" className='card-img' alt=""></img>
+         <div className='card-body'>
+           <h5 className="Event-card-title">Decibel magazine</h5>
+           <span className='Event-calendar'><BsCalendarCheck className='Event-calendar-icon'/>                                      Mon, Sep 25, 2020 at 9:30 AM</span>
+           <span className='Event-location'><CiLocationOn className='Event-location-icon'/>San francisco</span>
+           <div className='card-Avatar'>
+             <ul class="Event-ul">
+                <li> <img src="./assets/Event/01 (1).jpg" className='card-avatar-img' alt=""></img></li>
+                <li> <img src="./assets/Event/03.jpg" className='card-avatar-img' alt=""></img></li>
+                <li className='card-avatar-number'>+78</li>
+                <li className='card-avatar-text'>are attending</li>
+             </ul>
+           </div>
+           <div>
+            <button type='button' className='btn btn-success button-like-icon '><AiTwotoneLike className='like-icon' />Interested</button>
+            <button type='button' className='btn btn-primary button-share-icon'><BsShareFill/></button>
+           </div>
+         </div>
+        </div>
+       </div>
+
        <div className='col-xl-4 col-sm-6'>
        <div className='card'>
        <img src="./assets/Event/05 (1).jpg" className='card-img' alt=""></img>

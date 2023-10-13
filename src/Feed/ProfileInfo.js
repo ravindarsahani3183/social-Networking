@@ -92,7 +92,7 @@ const ProfileInfo = () => {
           </div>
         </div>
 
-        <div className='interest-icon-info-2 mt-4'>
+          <div className='interest-icon-info-2 mt-4'>
           <div className='interest-icon-info1'>
             <div className='mt-3 ms-4'>
               <img src="./assets/Interest/04.jpg" className='interest-photo1' alt=""></img>
@@ -112,8 +112,18 @@ const ProfileInfo = () => {
              <small className='interest-icon-small '>8,457,224 followers</small>
             </div>
           </div>
+
+          <div className='interest-icon-info1'>
+            <div className='mt-3 ms-4'>
+              <img src="./assets/Story/06.jpg" className='interest-photo' alt=""></img>
+            </div>
+            <div className='mt-3'>
+             <h5 className='interest-icon-heading'>Apple</h5>
+             <small className='interest-icon-small'>102B followers</small>
+            </div>
+          </div>
         </div>
-        
+
       </div>
     </div>
   )

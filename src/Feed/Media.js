@@ -61,13 +61,7 @@ const Media = () => {
           </div>
         </div>
 
-        <div>
-          <img src="./assets/Story/06.jpg" className='rounded media-photo1' alt=""></img>
-          <div className='media-icon-like-message'>
-            <span><AiFillHeart className='media-like'/><small className='ms-1'>20k</small></span>
-            <span><MdOutlineMessage/><small className='ms-1'>8k</small></span>
-          </div>
-        </div>
+        
         
       </div>
     </div>

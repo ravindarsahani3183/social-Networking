@@ -25,6 +25,7 @@ import Login from './Account/Login';
 import SignUp from './Account/SignUp';
 import ForgetPassword from './Account/ForgetPassword';
 import AddFriend from './Friend/AddFriend';
+import Message from './Message/Message';
 //import Story from './Story/Story';
 
 function App() {
@@ -69,6 +70,7 @@ function App() {
         <Route path="/closeAccount" element={<Setting route="closeAccount"/>} />
         <Route path="/SettingSidebar" element={<SettingSidebar/>} />
         <Route path="/setting" element={<Setting route="setting"/>} />
+        <Route path="message" element={<Message />} />
       </Routes>
     </div>
     </UserContext.Provider>

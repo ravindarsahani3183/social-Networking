@@ -97,6 +97,7 @@ const Event = () => {
              <ul class="Event-ul">
                 <li> <img src="./assets/Event/01 (1).jpg" className='card-avatar-img' alt=""></img></li>
                 <li> <img src="./assets/Event/03.jpg" className='card-avatar-img' alt=""></img></li>
+                <li> <img src="./assets/Event/04.jpg" className='card-avatar-img' alt=""></img></li>
                 <li className='card-avatar-number'>+78</li>
                 <li className='card-avatar-text'>are attending</li>
              </ul>

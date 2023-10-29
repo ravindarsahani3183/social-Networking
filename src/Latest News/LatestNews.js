@@ -44,6 +44,19 @@ const LatestNews = () => {
           </div>
          </div>
          <hr className='news-hr'></hr>
+
+         <div className='latest-news-info'>
+          <div className='news-figure'>
+            <img src="./assets/Latest News/05.jpg" className='latest-news-img' alt=""></img>
+          </div>
+          <div className='news-info'>
+            <button type="button" className=' latest-news-button latest-news-button3'>Business</button>
+            <Link className='news-info' to="/"><h4 className='news-info-heading'>Google shares top search trends of 2022</h4></Link>
+            <p className='news-para-info'> I think on style child of. Servants moreover in sensible it ye possible six say his. </p>
+            <small className='news-time-date'><BsCalendarDate className='news-icon'/><span className='ms-2'>13 jun 2022</span></small>
+          </div>
+         </div>
+         <hr className='news-hr'></hr>
         
          <div className='latest-news-info'>
           <div className='news-figure'>

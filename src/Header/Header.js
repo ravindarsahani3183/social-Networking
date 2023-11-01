@@ -27,7 +27,7 @@ export const Header = () => {
         <div className='headericons'>
             <div className='headerIcon'>
               <div className='iconbg'>
-                <Link className='header-link' to="/Message"><span className='headerlink'><MdOutlineMessage></MdOutlineMessage></span></Link>
+                <Link className='header-link' to="/Login"><span className='headerlink'><MdOutlineMessage></MdOutlineMessage></span></Link>
               </div>
             </div>
             <div className='headerIcon'>

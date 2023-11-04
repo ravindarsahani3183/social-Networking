@@ -9,16 +9,18 @@ const SignUp = () => {
   const[password, setPassword]=useState('');
   const[email, setEmail]=useState('');
   const[number, setNumber]=useState('');
-  const[option, setOption]=useState('');
+  const[date, setDate]=useState('');
+  const[gender, setGender]=useState('');
 
   const handleSumbit=(e)=>{
     e.preventDefault();
     axios.post('https://651d99b244e393af2d5a10c5.mockapi.io/social-networking',{
-      name: name,
-      surname: lastName,
-      password: password,
-      email: email,
-      number: number,
+      name:name,
+      surname:lastName,
+      password:password,
+      email:email,
+      number:number,
+      gender:gender
     })
   }
   return (
@@ -45,21 +47,21 @@ const SignUp = () => {
             </div>
             <div className='sign-up-form'>
               <input type='number' placeholder='Mobile number' className='signup-input border' onChange={(e) => setNumber(e.target.value)}></input>
-              <input type='date' placeholder='Date of birth' className='signup-input border'></input>
+              <input type='date' placeholder='Date of birth' className='signup-input border' onChange={(e) => setDate(e.target.value)}></input>
             </div>
             <div className='signup-radio-button'>
               <div className='radio-container border py-1'>
-                <input type="radio" id="option1" name="radio-group" className="radio-input"/>
+                <input type="radio" id="option1" name="gender" value="male" className="radio-input" onChange={(e) => setGender(e.target.value)}/>
                 <label for="option1" class="radio-label">Male</label>
               </div>
               
               <div className='radio-container border py-1'>
-                <input type="radio" id="option1" name="radio-group" className="radio-input"/>
+                <input type="radio" id="option1" name="gender" value="female" className="radio-input" onChange={(e) => setGender(e.target.value)}/>
                 <label for="option1" class="radio-label">Female</label>
               </div>
 
               <div className='radio-container border py-1'>
-                <input type="radio" id="option1" name="radio-group" className="radio-input"/>
+                <input type="radio" id="option1" name="gender" value="custom" className="radio-input" onChange={(e) => setGender(e.target.value)}/>
                 <label for="option1" class="radio-label">Custom</label>
               </div>
             </div>

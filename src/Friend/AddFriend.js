@@ -157,7 +157,6 @@ const AddFriend = () => {
                       <p className='add-frined-connection'>118 mutual<br/>Connection</p>
                       <div className='add-frined-button-request1'>
                         <button type='submit' className='btn btn-primary add-frined-button-request'>Add Friend</button>
-                        <button type='submit' className='btn btn-primary add-frined-button-request'>Add Friend</button>
                       </div>
                     </div>
                 </div>

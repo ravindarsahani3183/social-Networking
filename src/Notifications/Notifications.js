@@ -127,6 +127,26 @@ export const Notifications = () => {
           </div>
         </div>
         
+        <div className='notification-box1'>
+          <div className='notification-element'>
+            <img src="./assets/Avatar/07.jpg" className='notification-img' alt=""></img>
+            <div>
+              <div className='notification-name-request'>
+                <small className='notification-congrate'>
+                  Congratulate Sam Lanson for graduating from Microverse university<br/>
+                  Order #23685 belonging to Amanda Reed has been cancelled
+                </small>
+              </div>
+              <div className='notification-button1'>
+                <span className='border-bottom border-primary text-primary'>say congrate</span>
+              </div>
+            </div>
+          </div>
+          <div className='notification-right-info'>
+            <small className='notification-right-text'>12 hrs</small>
+            <BsThreeDots></BsThreeDots>
+          </div>
+        </div>
         <button type='button' className='btn btn-primary notification-button-large '>Load More notification</button>
       </div>
     </div>

@@ -22,6 +22,7 @@ const ForgetPassword = () => {
                 <span>Sign in</span></Link>
               </p>
               <button type='submit' className='btn btn-primary forgret-password-button1'>Reset Password</button>
+              <button type='submit' className='btn btn-primary forgret-password-button1 mt-3'>Reset Password</button>
             </form>
             <p className='forget-password-text2'>©2023 Webestica. All rights reserved</p>
         </div>

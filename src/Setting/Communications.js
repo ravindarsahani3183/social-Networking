@@ -4,6 +4,7 @@ const Communications = () => {
   return (
     <div className='Communications shadow-lg'>
       <h4 className='communications-heading'>Who can connect with you?</h4>
+      <h4 className='communications-heading'>Who can connect with you?</h4>
       <p className='communications-para'>
         He moonlights difficult engrossed it, sportsmen. 
         Interested has all Devonshire difficulty gay assistance joy.
